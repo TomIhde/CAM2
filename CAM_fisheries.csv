@@ -1,0 +1,29 @@
+Code,Index,Name,IsRec,NumSubFleets
+fishFPL,0,lg planktivores,0,1
+fishFPS,1,sm planktivores,0,1
+fishFVD,2,deep piscivores,0,1
+fishFVS,3,shallow piscivores,0,1
+fishFVT ,4,lr piscivores,0,1
+fishFVB,5,other piscivores,0,1
+fishFMM,6,mig. Mesopelagics,0,1
+fishFMN,7,non-mig mesopelagics,0,1
+fishFBP,8,benthopelagics,1,1
+fishFDD,9,deep demersals,0,1
+fishFDS,10,shallow demersals,0,1
+fishFDC,11,other deep demersals,0,1
+fishFDE,12,Estuarine demersals,0,1
+fishFDF,13,flat deep demersals,0,1
+fishFDM,14,other estuarine demersals,0,1
+fishFDP,15,other flat deep demersals,0,1
+fishSHB,16,other shark,0,1
+fishSHD,17,demersal sharks,0,1
+fishSHC,18,dogfish,0,1
+fishSSK,19,skates and rays,0,1
+fishBFF,20,other filter feeders,0,1
+fishPWN,21,blue crabs,0,1
+fishNewFishery1,22,New fishery,0,1
+fishNewFishery2,23,New fishery,0,1
+fishNewFishery3,24,New fishery,0,1
+fishNewFishery4,25,New fishery,0,1
+fishNewFishery5,26,New fishery,0,1
+fishNewFishery6,27,New fishery,0,1

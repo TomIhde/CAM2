@@ -1,0 +1,748 @@
+# Original filename: VMPA_setas_force_fish.prm
+# PC Version (created by Beth Fulton and Adam Davidson)
+#
+# Hydrodynamic files - this is for 1991 to 1994, but 1991 and 1992 are
+# faked from 1993 data.
+# input directories  
+nhdfiles 1
+hd0.name  inputs/forcisets/ChesapeakeFlows2012.nc
+
+
+
+
+# Bottom stress
+# BottomStress inputs/stress/stress.nc
+# BottomStress inputs/stress/nxstress.nc
+
+############################################162#
+###pss1-pss7 is #'ed in Neus, CAM also has pss8-113
+pss1.name box4nut.ts
+pss1.location   388172.41546733724 4124365.6018280433   -5
+pss1.data     inputs/forcisets/nutloads/box4nut.ts
+pss1.rewind 0
+
+## nutrient forcing      
+pss9.name  Box18
+pss9.location   385795.949824316 4160735.072985106   -1.2
+pss9.data     inputs/forcisets/nutloads/box18nut.ts
+pss9.rewind 0
+
+## nutrient forcing      
+pss10.name  Box19
+pss10.location   382524.8759520354 4094185.547700813   -12
+pss10.data     inputs/forcisets/nutloads/box19nut.ts
+pss10.rewind 0
+
+## nutrient forcing      
+pss11.name  Box20
+pss11.location   366632.27756487415 4099743.0099644815   -6
+pss11.data     inputs/forcisets/nutloads/box20nut.ts
+pss11.rewind 0
+
+## nutrient forcing      
+pss12.name  Box23
+pss12.location   344954.7440567069 4118144.6234727446   -1.2
+pss12.data     inputs/forcisets/nutloads/box23nut.ts
+pss12.rewind 0
+
+## nutrient forcing      
+pss13.name  Box24
+pss13.location   341653.4469044027 4114459.6171435714   -1.2
+pss13.data     inputs/forcisets/nutloads/box24nut.ts
+pss13.rewind 0
+
+## nutrient forcing      
+pss14.name  Box25
+pss14.location   343014.67248957045 4116571.5229806034   -6
+pss14.data     inputs/forcisets/nutloads/box25nut.ts
+pss14.rewind 0
+
+## nutrient forcing      
+pss15.name  Box26
+pss15.location   370806.3533379633 4166643.560729018   -16
+pss15.data     inputs/forcisets/nutloads/box26nut.ts
+pss15.rewind 0
+
+## nutrient forcing      
+pss16.name  Box30
+pss16.location   346429.259527895 4175977.3161180317   -1.2
+pss16.data     inputs/forcisets/nutloads/box30nut.ts
+pss16.rewind 0
+
+## nutrient forcing      
+pss17.name  Box31
+pss17.location   346937.17905299796 4177321.7333799102   -6
+pss17.data     inputs/forcisets/nutloads/box31nut.ts
+pss17.rewind 0
+
+## nutrient forcing      
+pss18.name  Box32
+pss18.location  373419.21009798645 4215756.696282205   -18
+pss18.data     inputs/forcisets/nutloads/box32nut.ts
+pss18.rewind 0
+
+## nutrient forcing      
+pss19.name  Box33
+pss19.location  373422.29982501996 4220709.276170044   -6
+pss19.data     inputs/forcisets/nutloads/box33nut.ts
+pss19.rewind 0
+
+## nutrient forcing      
+pss20.name  Box34
+pss20.location  320573.1618831938 4250254.194199754   -7
+pss20.data     inputs/forcisets/nutloads/box34nut.ts
+pss20.rewind 0
+
+## nutrient forcing      
+pss21.name  Box36
+pss21.location  319284.25291341316 4248212.46897351   -1.2
+pss21.data     inputs/forcisets/nutloads/box36nut.ts
+pss21.rewind 0
+
+## nutrient forcing      
+pss22.name  Box41
+pss22.location  415864.1690068814 4215160.96448018   -20
+pss22.data     inputs/forcisets/nutloads/box41nut.ts
+pss22.rewind 0
+
+## nutrient forcing      
+pss23.name  Box44
+pss23.location  397549.8821894571 4229257.9693459235   -6
+pss23.data     inputs/forcisets/nutloads/box44nut.ts
+pss23.rewind 0
+
+## nutrient forcing      
+pss24.name  Box47
+pss24.location  379089.97429960466 4245146.712124758   -6
+pss24.data     inputs/forcisets/nutloads/box47nut.ts
+pss24.rewind 0
+
+## nutrient forcing      
+pss25.name  Box49
+pss25.location  407435.09674853657 4209541.07740883   -6
+pss25.data     inputs/forcisets/nutloads/box49nut.ts
+pss25.rewind 0
+
+## nutrient forcing      
+pss26.name  Box50
+pss26.location  417717.1764682225 4211337.313635247   -6
+pss26.data     inputs/forcisets/nutloads/box50nut.ts
+pss26.rewind 0
+
+## nutrient forcing      
+pss27.name  Box51
+pss27.location  382130.08949848 4279029.2942070095   -6
+pss27.data     inputs/forcisets/nutloads/box51nut.ts
+pss27.rewind 0
+
+## nutrient forcing      
+pss28.name  Box52
+pss28.location  391537.3666202439 4237594.160745967   -6
+pss28.data     inputs/forcisets/nutloads/box52nut.ts
+pss28.rewind 0
+
+## nutrient forcing      
+pss29.name  Box53
+pss29.location  372513.8796562616 4281510.203952804   -6
+pss29.data     inputs/forcisets/nutloads/box53nut.ts
+pss29.rewind 0
+
+## nutrient forcing      
+pss30.name  Box54
+pss30.location  383510.241792175 4225656.407912955   -6
+pss30.data     inputs/forcisets/nutloads/box54nut.ts
+pss30.rewind 0
+
+## nutrient forcing      
+pss31.name  Box55
+pss31.location  372097.1407469349 4263410.907040346   -1.2
+pss31.data     inputs/forcisets/nutloads/box55nut.ts
+pss31.rewind 0
+
+## nutrient forcing      
+pss32.name  Box56
+pss32.location  394423.24274571246 4240791.049428858   -1.2
+pss32.data     inputs/forcisets/nutloads/box56nut.ts
+pss32.rewind 0
+
+## nutrient forcing      
+pss33.name  Box58
+pss33.location  418936.01924164925 4212678.972584061   -1.2
+pss33.data     inputs/forcisets/nutloads/box58nut.ts
+pss33.rewind 0
+
+## nutrient forcing      
+pss34.name  Box59
+pss34.location  379518.10973363946 4314211.132004295   -19
+pss34.data     inputs/forcisets/nutloads/box59nut.ts
+pss34.rewind 0
+
+## nutrient forcing      
+pss35.name  Box61
+pss35.location  386550.0202740755 4343836.2574714385   -6
+pss35.data     inputs/forcisets/nutloads/box61nut.ts
+pss35.rewind 0
+
+## nutrient forcing      
+pss36.name  Box62
+pss36.location  390064.90139798133 4342152.173030661   -6
+pss36.data     inputs/forcisets/nutloads/box62nut.ts
+pss36.rewind 0
+
+## nutrient forcing      
+pss37.name  Box63
+pss37.location  381561.00068248657 4337388.171646422   -6
+pss37.data     inputs/forcisets/nutloads/box63nut.ts
+pss37.rewind 0
+
+## nutrient forcing      
+pss38.name  Box64
+pss38.location  380975.4484496271 4337526.953385076   -1.2
+pss38.data     inputs/forcisets/nutloads/box64nut.ts
+pss38.rewind 0
+
+## nutrient forcing      
+pss39.name  Box65
+pss39.location  390790.7996053965 4342696.791810779   -1.2
+pss39.data     inputs/forcisets/nutloads/box65nut.ts
+pss39.rewind 0
+
+## nutrient forcing      
+pss40.name  Box66
+pss40.location  374884.661015955 4210370.113197491   -6
+pss40.data     inputs/forcisets/nutloads/box66nut.ts
+pss40.rewind 0
+
+## nutrient forcing      
+pss41.name  Box68
+pss41.location  372296.5499827529 4223951.660603919   -1.2
+pss41.data     inputs/forcisets/nutloads/box68nut.ts
+pss41.rewind 0
+
+## nutrient forcing      
+pss42.name  Box69
+pss42.location  368680.75842935365 4128382.3352869907   -18
+pss42.data     inputs/forcisets/nutloads/box69nut.ts
+pss42.rewind 0
+
+## nutrient forcing      
+pss43.name  Box73
+pss43.location  368395.912856281 4126424.1409933865   -1.2
+pss43.data     inputs/forcisets/nutloads/box73nut.ts
+pss43.rewind 0
+
+## nutrient forcing      
+pss44.name  Box74
+pss44.location  349189.0371407813 4139572.1371190776   -8
+pss44.data     inputs/forcisets/nutloads/box74nut.ts
+pss44.rewind 0
+
+## nutrient forcing      
+pss45.name  Box77
+pss45.location  371098.6255649932 4248115.177679653   -6
+pss45.data     inputs/forcisets/nutloads/box77nut.ts
+pss45.rewind 0
+
+## nutrient forcing      
+pss46.name  Box79
+pss46.location  371072.1334617204 4248504.309928231   -1.2
+pss46.data     inputs/forcisets/nutloads/box79nut.ts
+pss46.rewind 0
+
+## nutrient forcing      
+pss47.name  Box80
+pss47.location  370996.23092093 4246592.291074641   -1.2
+pss47.data     inputs/forcisets/nutloads/box80nut.ts
+pss47.rewind 0
+
+## nutrient forcing      
+pss48.name  Box81
+pss48.location  371035.22743150487 4247504.267368179   -24
+pss48.data     inputs/forcisets/nutloads/box81nut.ts
+pss48.rewind 0
+
+## nutrient forcing      
+pss49.name  Box82
+pss49.location  350979.1869748615 4270400.044089659   -11
+pss49.data     inputs/forcisets/nutloads/box82nut.ts
+pss49.rewind 0
+
+## nutrient forcing      
+pss50.name  Box85
+pss50.location  418608.0309758937 4235319.975639597   -5
+pss50.data     inputs/forcisets/nutloads/box85nut.ts
+pss50.rewind 0
+
+## nutrient forcing      
+pss51.name  Box86
+pss51.location  423084.35409927234 4244693.542035071   -7
+pss51.data     inputs/forcisets/nutloads/box86nut.ts
+pss51.rewind 0
+
+## nutrient forcing      
+pss52.name  Box87
+pss52.location  417178.28460191184 4236116.998165573   -1.2
+pss52.data     inputs/forcisets/nutloads/box87nut.ts
+pss52.rewind 0
+
+## nutrient forcing      
+pss53.name  Box90
+pss53.location  424274.43653246283 4245020.53512066   -1.2
+pss53.data     inputs/forcisets/nutloads/box90nut.ts
+pss53.rewind 0
+
+## nutrient forcing      
+pss54.name  Box91
+pss54.location  382011.685649184 4296279.766816009   -1.2
+pss54.data     inputs/forcisets/nutloads/box91nut.ts
+pss54.rewind 0
+
+## nutrient forcing      
+pss55.name  Box92
+pss55.location  415000.084737489 4284519.970544489   -6
+pss55.data     inputs/forcisets/nutloads/box92nut.ts
+pss55.rewind 0
+
+## nutrient forcing      
+pss56.name  Box95
+pss56.location  394636.81251569407 4278063.265296178   -8
+pss56.data     inputs/forcisets/nutloads/box95nut.ts
+pss56.rewind 0
+
+
+###################################
+## suspended sediment forcing           
+pss57.name TSSbox0.ts
+pss57.location   418181.71544179117 4096237.213962705   -26
+pss57.data     inputs/forcisets/TSS/TSSbox0.ts
+pss57.rewind 0
+
+## suspended sediment forcing             
+pss58.name box4.ts
+pss58.location   388172.41546733724 4124365.6018280433   -5
+pss58.data     inputs/forcisets/TSS/TSSbox4.ts
+pss58.rewind 0
+
+pss59.name box10
+pss59.location 394593.2384404428 4100165.4668153017   -5
+pss59.data     inputs/forcisets/TSS/TSSbox10.ts
+pss59.rewind 0
+
+pss60.name box11
+pss60.location 399032.30690481164 4087375.2614260428   -5
+pss60.data     inputs/forcisets/TSS/TSSbox11.ts
+pss60.rewind 0
+
+pss61.name box12
+pss61.location  409556.9481561479 4117077.3062085565   -5
+pss61.data     inputs/forcisets/TSS/TSSbox12.ts
+pss61.rewind 0
+
+pss62.name box14
+pss62.location   423741.896401156 4182013.3058750927   -5
+pss62.data     inputs/forcisets/TSS/TSSbox14.ts
+pss62.rewind 0
+
+pss63.name box15
+pss63.location    410287.31146789814 4187217.8044937556   -6
+pss63.data     inputs/forcisets/TSS/TSSbox15.ts
+pss63.rewind 0
+
+pss64.name box16
+pss64.location      390908.56909432105 4163322.970118475   -6
+pss64.data     inputs/forcisets/TSS/TSSbox16.ts
+pss64.rewind 0
+
+pss65.name box17
+pss65.location       418108.78494349995 4195524.121491204   -1.2
+pss65.data     inputs/forcisets/TSS/TSSbox17.ts
+pss65.rewind 0
+
+pss66.name box18
+pss66.location       385795.949824316 4160735.072985106   -1.2
+pss66.data     inputs/forcisets/TSS/TSSbox18.ts
+pss66.rewind 0
+
+pss67.name box19
+pss67.location        382524.8759520354 4094185.547700813   -12
+pss67.data     inputs/forcisets/TSS/TSSbox19.ts
+pss67.rewind 0
+
+pss68.name box20
+pss68.location        366632.27756487415 4099743.0099644815   -6
+pss68.data     inputs/forcisets/TSS/TSSbox20.ts
+pss68.rewind 0
+
+pss69.name box23
+pss69.location        344954.7440567069 4118144.6234727446   -1.2
+pss69.data     inputs/forcisets/TSS/TSSbox23.ts
+pss69.rewind 0
+
+pss70.name box24
+pss70.location        341653.4469044027 4114459.6171435714   -1.2
+pss70.data     inputs/forcisets/TSS/TSSbox24.ts
+pss70.rewind 0
+
+pss71.name box25
+pss71.location        343014.67248957045 4116571.5229806034   -6
+pss71.data     inputs/forcisets/TSS/TSSbox25.ts
+pss71.rewind 0
+
+pss72.name box26
+pss72.location        370806.3533379633 4166643.560729018   -16
+pss72.data     inputs/forcisets/TSS/TSSbox26.ts
+pss72.rewind 0
+
+pss73.name box30
+pss73.location       346429.259527895 4175977.3161180317   -1.2
+pss73.data     inputs/forcisets/TSS/TSSbox30.ts
+pss73.rewind 0
+
+pss74.name box31
+pss74.location     346937.17905299796 4177321.7333799102   -6
+pss74.data     inputs/forcisets/TSS/TSSbox31.ts
+pss74.rewind 0
+
+pss75.name box32
+pss75.location     373419.21009798645 4215756.696282205   -18
+pss75.data     inputs/forcisets/TSS/TSSbox32.ts
+pss75.rewind 0
+
+pss76.name box33
+pss76.location       373422.29982501996 4220709.276170044   -6
+pss76.data     inputs/forcisets/TSS/TSSbox33.ts
+pss76.rewind 0
+
+pss77.name box34
+pss77.location      320573.1618831938 4250254.194199754   -7
+pss77.data     inputs/forcisets/TSS/TSSbox34.ts
+pss77.rewind 0
+
+pss78.name box36
+pss78.location     319284.25291341316 4248212.46897351   -1.2
+pss78.data     inputs/forcisets/TSS/TSSbox36.ts
+pss78.rewind 0
+
+pss79.name box41
+pss79.location        415864.1690068814 4215160.96448018   -20
+pss79.data     inputs/forcisets/TSS/TSSbox41.ts
+pss79.rewind 0
+
+pss80.name box44
+pss80.location        397549.8821894571 4229257.9693459235   -6
+pss80.data     inputs/forcisets/TSS/TSSbox44.ts
+pss80.rewind 0
+
+pss81.name box47
+pss81.location      379089.97429960466 4245146.712124758   -6
+pss81.data     inputs/forcisets/TSS/TSSbox47.ts
+pss81.rewind 0
+
+pss82.name box49
+pss82.location   407435.09674853657 4209541.07740883   -6
+pss82.data     inputs/forcisets/TSS/TSSbox49.ts
+pss82.rewind 0
+
+pss83.name box50
+pss83.location   417717.1764682225 4211337.313635247   -6
+pss83.data     inputs/forcisets/TSS/TSSbox50.ts
+pss83.rewind 0
+
+pss84.name box51
+pss84.location    382130.08949848 4279029.2942070095   -6
+pss84.data     inputs/forcisets/TSS/TSSbox51.ts
+pss84.rewind 0
+
+pss85.name box52
+pss85.location    391537.3666202439 4237594.160745967   -6
+pss85.data     inputs/forcisets/TSS/TSSbox52.ts
+pss85.rewind 0
+
+pss86.name box53
+pss86.location    372513.8796562616 4281510.203952804   -6
+pss86.data     inputs/forcisets/TSS/TSSbox53.ts
+pss86.rewind 0
+
+pss87.name box54
+pss87.location   383510.241792175 4225656.407912955   -6
+pss87.data     inputs/forcisets/TSS/TSSbox54.ts
+pss87.rewind 0
+
+pss88.name box55
+pss88.location   372097.1407469349 4263410.907040346   -1.2
+pss88.data     inputs/forcisets/TSS/TSSbox55.ts
+pss88.rewind 0
+
+pss89.name box56
+pss89.location     394423.24274571246 4240791.049428858   -1.2
+pss89.data     inputs/forcisets/TSS/TSSbox56.ts
+pss89.rewind 0
+
+pss90.name box58
+pss90.location      418936.01924164925 4212678.972584061   -1.2
+pss90.data     inputs/forcisets/TSS/TSSbox58.ts
+pss90.rewind 0
+
+pss91.name box59
+pss91.location      379518.10973363946 4314211.132004295   -19
+pss91.data     inputs/forcisets/TSS/TSSbox59.ts
+pss91.rewind 0
+
+pss92.name box61
+pss92.location      386550.0202740755 4343836.2574714385   -6
+pss92.data     inputs/forcisets/TSS/TSSbox61.ts
+pss92.rewind 0
+
+pss93.name box62
+pss93.location      390064.90139798133 4342152.173030661   -6
+pss93.data     inputs/forcisets/TSS/TSSbox62.ts
+pss93.rewind 0
+
+pss94.name box63
+pss94.location      381561.00068248657 4337388.171646422   -6
+pss94.data     inputs/forcisets/TSS/TSSbox63.ts
+pss94.rewind 0
+
+pss95.name box64
+pss95.location      380975.4484496271 4337526.953385076   -1.2
+pss95.data     inputs/forcisets/TSS/TSSbox64.ts
+pss95.rewind 0
+
+pss96.name box65
+pss96.location       390790.7996053965 4342696.791810779   -1.2
+pss96.data     inputs/forcisets/TSS/TSSbox65.ts
+pss96.rewind 0
+
+pss97.name box66
+pss97.location       374884.661015955 4210370.113197491   -6
+pss97.data     inputs/forcisets/TSS/TSSbox66.ts
+pss97.rewind 0
+
+pss98.name box68
+pss98.location         372296.5499827529 4223951.660603919   -1.2
+pss98.data     inputs/forcisets/TSS/TSSbox68.ts
+pss98.rewind 0
+
+pss99.name box69
+pss99.location        368680.75842935365 4128382.3352869907   -18
+pss99.data     inputs/forcisets/TSS/TSSbox69.ts
+pss99.rewind 0
+
+pss100.name box73
+pss100.location       368395.912856281 4126424.1409933865   -1.2
+pss100.data     inputs/forcisets/TSS/TSSbox73.ts
+pss100.rewind 0
+
+pss101.name box74
+pss101.location      349189.0371407813 4139572.1371190776   -8
+pss101.data     inputs/forcisets/TSS/TSSbox74.ts
+pss101.rewind 0
+
+pss102.name box77
+pss102.location      371098.6255649932 4248115.177679653   -6
+pss102.data     inputs/forcisets/TSS/TSSbox77.ts
+pss102.rewind 0
+
+pss103.name box79
+pss103.location    371072.1334617204 4248504.309928231   -1.2
+pss103.data     inputs/forcisets/TSS/TSSbox79.ts
+pss103.rewind 0
+
+pss104.name box80
+pss104.location     370996.23092093 4246592.291074641   -1.2
+pss104.data     inputs/forcisets/TSS/TSSbox80.ts
+pss104.rewind 0
+
+pss105.name box81
+pss105.location     371035.22743150487 4247504.267368179   -24
+pss105.data     inputs/forcisets/TSS/TSSbox81.ts
+pss105.rewind 0
+
+pss106.name box82
+pss106.location       350979.1869748615 4270400.044089659   -11
+pss106.data     inputs/forcisets/TSS/TSSbox82.ts
+pss106.rewind 0
+
+pss107.name box85
+pss107.location        418608.0309758937 4235319.975639597   -5
+pss107.data     inputs/forcisets/TSS/TSSbox85.ts
+pss107.rewind 0
+
+pss108.name box86
+pss108.location       423084.35409927234 4244693.542035071   -7
+pss108.data     inputs/forcisets/TSS/TSSbox86.ts
+pss108.rewind 0
+
+pss109.name box87
+pss109.location      417178.28460191184 4236116.998165573   -1.2
+pss109.data     inputs/forcisets/TSS/TSSbox87.ts
+pss109.rewind 0
+
+pss110.name box90
+pss110.location     424274.43653246283 4245020.53512066   -1.2
+pss110.data     inputs/forcisets/TSS/TSSbox90.ts
+pss110.rewind 0
+
+pss111.name box91
+pss111.location      382011.685649184 4296279.766816009   -1.2
+pss111.data     inputs/forcisets/TSS/TSSbox91.ts
+pss111.rewind 0
+
+pss112.name box92
+pss112.location       415000.084737489 4284519.970544489   -6
+pss112.data     inputs/forcisets/TSS/TSSbox92.ts
+pss112.rewind 0
+
+pss113.name box95
+pss113.location       394636.81251569407 4278063.265296178   -8
+pss113.data     inputs/forcisets/TSS/TSSbox95.ts
+pss113.rewind 0
+
+
+# Point source\sink lists
+npointss 114
+
+## nutrient forcing             
+pss0.name box0nut.ts
+pss0.location   418181.71544179117 4096237.213962705   -26
+pss0.data     inputs/forcisets/nutloads/box0nut.ts
+pss0.rewind 0
+
+## nutrient forcing             
+pss1.name box4nut.ts
+pss1.location   388172.41546733724 4124365.6018280433   -5
+pss1.data     inputs/forcisets/nutloads/box4nut.ts
+pss1.rewind 0
+
+## nutrient forcing      
+pss2.name  Box10
+pss2.location   394593.2384404428 4100165.4668153017   -5
+pss2.data     inputs/forcisets/nutloads/box10nut.ts
+pss2.rewind 0
+
+## nutrient forcing      
+pss3.name  Box11
+pss3.location   399032.30690481164 4087375.2614260428   -5
+pss3.data     inputs/forcisets/nutloads/box11nut.ts
+pss3.rewind 0
+
+## nutrient forcing      
+pss4.name  Box12
+pss4.location   409556.9481561479 4117077.3062085565   -5
+pss4.data     inputs/forcisets/nutloads/box12nut.ts
+pss4.rewind 0
+
+## nutrient forcing      
+pss5.name  Box14
+pss5.location   423741.896401156 4182013.3058750927   -5
+pss5.data     inputs/forcisets/nutloads/box14nut.ts
+pss5.rewind 0
+
+## nutrient forcing      
+pss6.name  Box15
+pss6.location   410287.31146789814 4187217.8044937556   -6
+pss6.data     inputs/forcisets/nutloads/box15nut.ts
+pss6.rewind 0
+
+## nutrient forcing      
+pss7.name  Box16
+pss7.location   390908.56909432105 4163322.970118475   -6
+pss7.data     inputs/forcisets/nutloads/box16nut.ts
+pss7.rewind 0
+
+## nutrient forcing      
+pss8.name  Box17
+pss8.location   418108.78494349995 4195524.121491204   -1.2
+pss8.data     inputs/forcisets/nutloads/box17nut.ts
+pss8.rewind 0
+
+
+##########################################
+# Rain and evaporation
+Precipitation inputs/meteor/times1.6.nc
+Evaporation   inputs/meteor/84-95.nc
+
+# Solar time series data file
+Solar_radiation inputs/forcisets/solar_NEUS.ts
+Solar_radiation_rewind 1
+
+# pH time series data file
+# use_phFiles 0
+
+# Temperature time series data file
+use_tempfiles 1
+# The number of temperature input files 
+ntempfiles 1 
+Temperature0.name inputs/forcisets/ChesapeakeTemps2012.nc
+
+# Salinity time series data file
+use_saltfiles 1
+# The number of salinity files 
+nsaltfiles 1 
+Salinity0.name inputs/forcisets/ChesapeakeSalt2012.nc
+
+# Recruitment_time_series
+
+# Recruitment_enviro_forcing
+
+#############################################
+# Historical catch lists - nCatchts is the number of time series to be loaded and
+# typeCatchts is whether or not the data is to be interpolated (0) by the model
+# or just use previous record (1)
+nCatchts 0
+typeCatchts 0
+
+#############################################
+# Historical discard lists
+nDiscardts 0
+typeDiscardts 0
+
+#############################################
+# Residual lists - on market fish prices
+nResidualsts 0
+typeResidualsts 0
+
+####################################################################################################
+####Added By Emily H from neus 9/5/2023
+temp_rewind 1
+
+salt_rewind 1
+
+ts_on_hydro_time 1
+# G. Fay added 09/21/2016
+use_larvalfiles 0 # 1 = use larval files, 0 = don't use larval files.
+
+#Catchts0.name totcatch
+#Catchts0.location 52965.5227 2474675.803 0
+#Catchts0.data CatchFiles/total_catch.ts
+#Catchts0.rewind 0
+
+# RM 20180530
+use_VertMixFiles 0
+
+## G.Fay added 09/20/16, RM changed to 86400 from 43200
+# Frequency of inputs.ts and exports.ts output - write out each dt.
+inputs_tout 86400 seconds
+
+## G.Fay added 09/20/16
+use_external_scaling 0
+
+use_pollutantfiles 0
+#JC Adding LTL Forcing
+
+# JC adding LTL forcing 
+#use_force_tracers 1
+#nforceTracers 5
+#use_weighted_assim 0
+
+#tracerNames 5
+#Diatom_N PicoPhytopl_N Diatom_S DinoFlag_N Lab_Det_N
+
+#Diatom_N
+
+# Diatom_N_nFiles 54
+# #Diatom_N_use_resets 0
+# Diatom_N_ResetTol 0
+# Diatom_N_rewind 1
+# Diatom_N_wgt_coefft 1.0
+
