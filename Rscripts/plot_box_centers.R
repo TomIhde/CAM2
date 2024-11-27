@@ -1,5 +1,6 @@
 ## plot box centers on figure
-
+library(rbgm)
+library(atlantistools)
 bgmFile <- "Final_CAM_Boxes_8.bgm"
 
 
