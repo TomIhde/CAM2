@@ -5,7 +5,7 @@
 #  		  for Hobart class
 #############################################
 # Run parameters
-verbose       0		# Detailed logged output
+verbose       5		# Detailed logged output
 
 trackAtomicRatio 0
 
