@@ -602,7 +602,7 @@ variables:
 		Benthic_Carniv_N:dtype = 0 ;
 		Benthic_Carniv_N:sumtype = 1 ;
 		Benthic_Carniv_N:_FillValue = 29.5 ;
-		Benthic_Carniv_N:inwc = 0. ;
+		Benthic_Carniv_N:inwc = 0 ;
 		Benthic_Carniv_N:insed = 1 ;
 		Benthic_Carniv_N:dissol = 0 ;
 		Benthic_Carniv_N:decay = 0. ;
