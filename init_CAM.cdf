@@ -601,7 +601,6 @@ variables:
 		Benthic_Carniv_N:long_name = "Benthic Carnivore Nitrogen" ;
 		Benthic_Carniv_N:dtype = 0 ;
 		Benthic_Carniv_N:sumtype = 1 ;
-		Benthic_Carniv_N:_FillValue = 29.5 ;
 		Benthic_Carniv_N:inwc = 0 ;
 		Benthic_Carniv_N:insed = 1 ;
 		Benthic_Carniv_N:dissol = 0 ;
@@ -614,6 +613,7 @@ variables:
 		Benthic_Carniv_N:b_dens = 1000000000. ;
 		Benthic_Carniv_N:i_conc = 200000000. ;
 		Benthic_Carniv_N:f_conc = 200000000. ;
+		Benthic_Carniv_N:_FillValue = 29.5 ;
 	double Planktiv_S_Fish_N(t, b, z) ;
 		Planktiv_S_Fish_N:bmtype = "tracer" ;
 		Planktiv_S_Fish_N:units = "mg N m-3" ;
