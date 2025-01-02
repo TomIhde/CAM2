@@ -1611,7 +1611,8 @@ KTUR_BD  	1.0   Bioturbation contribution by deposit feeders 1
 KTUR_BMS 	0.5   Bioturbation contribution by shallow macrozoobenthos 0.5                    
 KTUR_BML 	2.0   Bioturbation contribution by megazoobenthos 0.5                     
 KTUR_BMD  	0.5   Bioturbation contribution by deep macrozoobenthos 0.5                    
-KTUR_BG  	0.5   Bioturbation contribution by benthic grazers 0.5                    
+KTUR_BG  	0.5   Bioturbation contribution by benthic grazers 0.5
+KTUR_BFS  	0.5   Bioturbation contribution by macoma spp. 0.5
 K_TUR_DEP  	0.02   Bioturbation depth m 0.02                      
 K_MAX_TUR  	10.0   Maximum contributions to bioturbation 10                     
 
