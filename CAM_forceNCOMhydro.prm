@@ -16,10 +16,64 @@ hd0.name  inputs/forcisets/ChesapeakeFlows2012.nc
 
 ############################################162#
 ###pss1-pss7 is #'ed in Neus, CAM also has pss8-113
+
+
+# Point source\sink lists
+npointss 114
+
+## nutrient forcing             
+pss0.name box0nut.ts
+pss0.location   418181.71544179117 4096237.213962705   -26
+pss0.data     inputs/forcisets/nutloads/box0nut.ts
+pss0.rewind 0
+
+## nutrient forcing             
 pss1.name box4nut.ts
 pss1.location   388172.41546733724 4124365.6018280433   -5
 pss1.data     inputs/forcisets/nutloads/box4nut.ts
 pss1.rewind 0
+
+## nutrient forcing      
+pss2.name  Box10
+pss2.location   394593.2384404428 4100165.4668153017   -5
+pss2.data     inputs/forcisets/nutloads/box10nut.ts
+pss2.rewind 0
+
+## nutrient forcing      
+pss3.name  Box11
+pss3.location   399032.30690481164 4087375.2614260428   -5
+pss3.data     inputs/forcisets/nutloads/box11nut.ts
+pss3.rewind 0
+
+## nutrient forcing      
+pss4.name  Box12
+pss4.location   409556.9481561479 4117077.3062085565   -5
+pss4.data     inputs/forcisets/nutloads/box12nut.ts
+pss4.rewind 0
+
+## nutrient forcing      
+pss5.name  Box14
+pss5.location   423741.896401156 4182013.3058750927   -5
+pss5.data     inputs/forcisets/nutloads/box14nut.ts
+pss5.rewind 0
+
+## nutrient forcing      
+pss6.name  Box15
+pss6.location   410287.31146789814 4187217.8044937556   -6
+pss6.data     inputs/forcisets/nutloads/box15nut.ts
+pss6.rewind 0
+
+## nutrient forcing      
+pss7.name  Box16
+pss7.location   390908.56909432105 4163322.970118475   -6
+pss7.data     inputs/forcisets/nutloads/box16nut.ts
+pss7.rewind 0
+
+## nutrient forcing      
+pss8.name  Box17
+pss8.location   418108.78494349995 4195524.121491204   -1.2
+pss8.data     inputs/forcisets/nutloads/box17nut.ts
+pss8.rewind 0
 
 ## nutrient forcing      
 pss9.name  Box18
@@ -599,63 +653,6 @@ pss113.data     inputs/forcisets/TSS/TSSbox95.ts
 pss113.rewind 0
 
 
-# Point source\sink lists
-npointss 114
-
-## nutrient forcing             
-pss0.name box0nut.ts
-pss0.location   418181.71544179117 4096237.213962705   -26
-pss0.data     inputs/forcisets/nutloads/box0nut.ts
-pss0.rewind 0
-
-## nutrient forcing             
-pss1.name box4nut.ts
-pss1.location   388172.41546733724 4124365.6018280433   -5
-pss1.data     inputs/forcisets/nutloads/box4nut.ts
-pss1.rewind 0
-
-## nutrient forcing      
-pss2.name  Box10
-pss2.location   394593.2384404428 4100165.4668153017   -5
-pss2.data     inputs/forcisets/nutloads/box10nut.ts
-pss2.rewind 0
-
-## nutrient forcing      
-pss3.name  Box11
-pss3.location   399032.30690481164 4087375.2614260428   -5
-pss3.data     inputs/forcisets/nutloads/box11nut.ts
-pss3.rewind 0
-
-## nutrient forcing      
-pss4.name  Box12
-pss4.location   409556.9481561479 4117077.3062085565   -5
-pss4.data     inputs/forcisets/nutloads/box12nut.ts
-pss4.rewind 0
-
-## nutrient forcing      
-pss5.name  Box14
-pss5.location   423741.896401156 4182013.3058750927   -5
-pss5.data     inputs/forcisets/nutloads/box14nut.ts
-pss5.rewind 0
-
-## nutrient forcing      
-pss6.name  Box15
-pss6.location   410287.31146789814 4187217.8044937556   -6
-pss6.data     inputs/forcisets/nutloads/box15nut.ts
-pss6.rewind 0
-
-## nutrient forcing      
-pss7.name  Box16
-pss7.location   390908.56909432105 4163322.970118475   -6
-pss7.data     inputs/forcisets/nutloads/box16nut.ts
-pss7.rewind 0
-
-## nutrient forcing      
-pss8.name  Box17
-pss8.location   418108.78494349995 4195524.121491204   -1.2
-pss8.data     inputs/forcisets/nutloads/box17nut.ts
-pss8.rewind 0
-
 
 ##########################################
 # Rain and evaporation
@@ -667,7 +664,7 @@ Solar_radiation inputs/forcisets/solar_NEUS.ts
 Solar_radiation_rewind 1
 
 # pH time series data file
-# use_phFiles 0
+use_phFiles 0
 
 # Temperature time series data file
 use_tempfiles 1
