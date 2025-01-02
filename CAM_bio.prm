@@ -759,7 +759,7 @@ flagseason      1 	Flag of seasonal change, 0 for no, 1 yes 1
 flaglight       0 	Light adaptation: 1 = on, 0 = off 1                 
 flaglightopt    3 	Light model: 0=orig, 1=bottom, 2=top, 3=mid-depth of cell 3                 
 flagmodeltemp   0 	Temperature model used: 1 = regression, 0 = from data 1               
-flagmodelpH 	1 	Ph model used: 1 = regression, 0 = from data 1
+flagmodelpH 	0 	Ph model used: 1 = regression, 0 = from data 1
 flagq10         1 	Q10 corrections used in the model: 1 = yes, 0 = no 1             
 O2case          3 	Oxygen limitation used: 0 = ambient O2, 1 = based on depth, 2 = IGBEM, 3 = quadratic lim 3                   
 flagnut         0 	Nutrient lim used: 0=Leibig (min), 1=multiplicative, 2=WQI 0                  
