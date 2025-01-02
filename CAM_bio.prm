@@ -2430,7 +2430,8 @@ Acov_ad_WHT  1.0  Scalar for response of refuge relationship for juv about 1.0 i
 
 ## Parameters to use with home range movement
 # Minimum depth (m) for each group
-FPS_mindepth     0 
+FPS_mindepth     0
+MA_mindepth      0
 FPL_mindepth     0 
 FPO_mindepth     0 
 FVD_mindepth     0 
