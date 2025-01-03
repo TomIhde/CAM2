@@ -1275,6 +1275,27 @@ flagq10effWHS 0 1
 
 
 # Temperature sensitivty of vertebrates and CEP, PWN: 0 = no, 1 = yes              
+flagtempsensitiveBFS 1 0
+flagtempsensitiveBFF 1 0
+flagtempsensitiveBFD 1 0
+flagtempsensitiveZL 1 0
+flagtempsensitiveBD 1 0
+flagtempsensitiveMA 1 0
+flagtempsensitiveMB 1 0
+flagtempsensitiveSG 1 0
+flagtempsensitiveBC 1 0
+flagtempsensitiveZG 1 0
+flagtempsensitivePL 1 0
+flagtempsensitiveDF 1 0
+flagtempsensitivePS 1 0
+flagtempsensitiveZM 1 0
+flagtempsensitiveZS 1 0
+flagtempsensitivePB 1 0
+flagtempsensitiveBB 1 0
+flagtempsensitiveBO 1 0
+flagtempsensitiveDL 1 0
+flagtempsensitiveDR 1 0
+flagtempsensitiveDC 1 0
 flagtempsensitiveFPS 1 0            
 flagtempsensitiveFPL 1 0            
 flagtempsensitiveFPO 1 0            
@@ -11500,6 +11521,7 @@ flagfecundsensitive_DC 0
 
 # Whether the species is sensitive to salinity
 
+flagSaltSensitive_BD 0
 flagSaltSensitive_FPL 0
 flagSaltSensitive_FPO 0
 flagSaltSensitive_FPS 0
