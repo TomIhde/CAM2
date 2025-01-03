@@ -2491,6 +2491,14 @@ BFD_mindepth     0
 BG_mindepth      0
 
 # Maximum depth (m) for each group
+MA_maxdepth      5000
+MB_maxdepth      25
+SG_maxdepth      50
+ZG_maxdepth      5000
+PL_maxdepth      100
+PS_maxdepth      200
+PB_maxdepth      5000
+BB_maxdepth      5000
 FPS_maxdepth     5000 
 FPL_maxdepth     5000 
 FPO_maxdepth     1900 
