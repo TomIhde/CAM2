@@ -2433,6 +2433,7 @@ Acov_ad_WHT  1.0  Scalar for response of refuge relationship for juv about 1.0 i
 FPS_mindepth     0
 MA_mindepth      0
 MB_mindepth      0
+SG_mindepth      0
 FPL_mindepth     0 
 FPO_mindepth     0 
 FVD_mindepth     0 
