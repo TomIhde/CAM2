@@ -2434,6 +2434,11 @@ FPS_mindepth     0
 MA_mindepth      0
 MB_mindepth      0
 SG_mindepth      0
+ZG_mindepth      0
+PL_mindepth      0
+PS_mindepth      0
+PB_mindepth      0
+BB_mindepth      0
 FPL_mindepth     0 
 FPO_mindepth     0 
 FVD_mindepth     0 
