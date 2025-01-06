@@ -829,6 +829,11 @@ flag_report_water_detritus 	1    #POSSIBLE SETTINGS: 0=do not include water colu
 # If fish respiration is off then the fish model is essentially/very similar to a Deriso-Schnute            
 flagresp 	0 	Switch to turn fish respiration on/off: off=0, on=1 1                 
 
+##### added 1-9-25 by TI, v6665 required switch
+flagMAlim  0
+flagSGlim  0
+
+#####
 flagavgmig  	0 	Switch to turn averaging of migrant sizes on/off: off=0, on=1 1               
 flagkdrop  	0 	Switch to turn cubic bacterial growth on/off: off=0, on=1 0                
 flagbactstim  	0 	Switch to turn stimulation of bacterial growth on/off: off=0, on=1 0               
@@ -2086,6 +2091,15 @@ habitat_MA 7
 	
 habitat_SG 7
 0	0	1	0	1	1	0
+
+## added 1-6-25 TI, required by v6665
+habitat_DF 7
+1	1	1	1	1	1	1
+
+habitat_BO 7
+1	1	1	1	1	1	1
+
+########
 	
 juv_habitat_CEP 7
 1	1	1	1	1	1	0
