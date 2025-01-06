@@ -334,36 +334,43 @@ KDEP_Pelfish     0.01       Sediment penetration depth of pelagic fish         m
 ## Linear mortality modified 20180404 RM, drop mL_XXX_T15 and change to zero for tuning
 # Added 20201022
 # Invertebrates
-PL_mL        0.0       Linear mortality rate of lg phytopl, 15 deg C     d-1              0.14
-PS_mL        0.0      Linear mortality rate of picophytopl, 15 deg C    d-1              0.14
-MB_mL        0.0       Linear mortality rate of microphytoben, 15 deg C  d-1              0.14
-DF_mL        0.0      Linear mortality rate of dinoflag, 15 deg C       d-1              0.14
-MA_mL        0.0    Linear mortality rate of macroalgae, 15 deg C     d-1             0.002 - 0.04
-SG_mL        0   Linear mortality rate of seagrass, 15 deg C       d-1              0.001 - 0.01
-SG_mL   	0   Linear mortality of seagrass epiphytes, 15 deg C d-1 - not used but need to add
-ZG_mL        0.0    Linear mortality rate of gelatin zoopl, 15 deg C  d-1 (0.0008)     0.0 - 0.04
-ZL_mL        0.0  Linear mortality rate of large zoopl, 15 deg C    d-1 (0.001)      0.0 - 0.04
-ZM_mL        0.0  Linear mortality rate of meso-zoopl, 15 deg C     d-1 (0.001)      0.0 - 0.09
-ZS_mL        0.0  Linear mortality rate of microzoopl, 15 deg C     d-1 (0.0015)     0.0 - 1.0
-BFS_mL      0.0       Linear mortality rate of shallow ff, 15 deg C     d-1 (0.000001)   0.0 -  0.001
-BFD_mL       0.0       Linear mortality rate of deep filt feed, 15 deg C d-1 (0.000001)   0.0 -  0.001
-BML_mL       0.00007    Linear mortality rate of megazoobenthos, 15 deg C d-1 (0.00037)    0.0 - 0.002
-BMD_mL      0.000002    Linear mort. rate of deep macrozooben.,  15 deg C d-1 (0.0001)     0.0 - 0.002
-CEP_mL       0.0    Linear mortality rate of cephalopods, 15 deg C    d-1 (0.002)      0.0 - 0.01
+PL_mL        0.0      # Linear mortality rate of lg phytopl, 15 deg C     d-1              0.14
+PS_mL        0.0      #Linear mortality rate of picophytopl, 15 deg C    d-1              0.14
+MB_mL        0.0      # Linear mortality rate of microphytoben, 15 deg C  d-1              0.14
+DF_mL        0.0     # Linear mortality rate of dinoflag, 15 deg C       d-1              0.14
+MA_mL        0.0    #Linear mortality rate of macroalgae, 15 deg C     d-1             0.002 - 0.04
+SG_mL        0   #Linear mortality rate of seagrass, 15 deg C       d-1              0.001 - 0.01
+SG_mL   	0   #Linear mortality of seagrass epiphytes, 15 deg C d-1 - not used but need to add
+ZG_mL        0.0   # Linear mortality rate of gelatin zoopl, 15 deg C  d-1 (0.0008)     0.0 - 0.04
+ZL_mL        0.0  #Linear mortality rate of large zoopl, 15 deg C    d-1 (0.001)      0.0 - 0.04
+ZM_mL        0.0  #Linear mortality rate of meso-zoopl, 15 deg C     d-1 (0.001)      0.0 - 0.09
+ZS_mL        0.0  #Linear mortality rate of microzoopl, 15 deg C     d-1 (0.0015)     0.0 - 1.0
+BFS_mL      0.0       #Linear mortality rate of shallow ff, 15 deg C     d-1 (0.000001)   0.0 -  0.001
+BFD_mL       0.0       #Linear mortality rate of deep filt feed, 15 deg C d-1 (0.000001)   0.0 -  0.001
+BML_mL       0.00007    #Linear mortality rate of megazoobenthos, 15 deg C d-1 (0.00037)    0.0 - 0.002
+BMD_mL      0.000002    #Linear mort. rate of deep macrozooben.,  15 deg C d-1 (0.0001)     0.0 - 0.002
 
 # Invertebrates with age structure
 ### muted and replaced with zeros (below) 20180718 RM
 #Restored 20201022
-PWN_mL 2   0  0 
-
-# PWN_mL      0.0    Linear mortality rate of prawns, 15 deg C         d-1 (0.002)      0.0 - 0.01
-FPL_mL      0.0     Linear mortality rate of lg planktiv., 15 deg C   d-1 (5e-7)       0.0 - 0.001
-FPS_mL       0.0      Linear mortality rate of small planktiv, 15 deg C d-1 (5e-9)       0.0 - 0.001
-FPO_mL      0.0    Linear mortality rate of other planktiv, 15 deg C d-1 (5e-9)       0.0 - 0.001
-FVD_mL       0.0   Linear mortality rate of deep pisciv., 15 deg C   d-1              0.0 - 0.00005
-FVV_mL       0.0   Linear mortality rate of vul. pisciv., 15 deg C   d-1              0.0 - 0.00005
-FVS_mL       0.0   Linear mort. rate of shallow pisciv., 15 deg C    d-1              0.0 - 0.00005
-FVT_mL       0.0   Linear mort. rate of tropical pisciv., 15 deg C   d-1              0.0 - 0.00005
+CEP_mL 2  # Linear mortality rate of cephalopods, 15 deg C    d-1 (0.002)      0.0 - 0.01
+0 0
+PWN_mL 2  #  Linear mortality rate of prawns, 15 deg C d-1 (0.002)      0.0 - 0.01
+0 0
+FPL_mL 2  #     Linear mortality rate of lg planktiv., 15 deg C   d-1 (5e-7)       0.0 - 0.001
+0 0
+FPS_mL 2 #     Linear mortality rate of small planktiv, 15 deg C d-1 (5e-9)       0.0 - 0.001
+0 0
+FPO_mL 2 #   Linear mortality rate of other planktiv, 15 deg C d-1 (5e-9)       0.0 - 0.001
+0 0
+FVD_mL 2    # Linear mortality rate of deep pisciv., 15 deg C   d-1              0.0 - 0.00005
+0 0
+FVV_mL 2    # Linear mortality rate of vul. pisciv., 15 deg C   d-1              0.0 - 0.00005
+0 0
+FVS_mL 2   # Linear mort. rate of shallow pisciv., 15 deg C    d-1              0.0 - 0.00005
+0 0
+FVT_mL 2  #Linear mort. rate of tropical pisciv., 15 deg C   d-1              0.0 - 0.00005
+0 0
 FVB_mL       0.0      Linear mortality rate of other pisciv, 15 deg C   d-1              0.0 - 0.001
 FVO_mL       0.0       Linear mortality rate of other tuna, 15 deg C     d-1              0.0 - 0.00005
 FMM_mL       0.0     Linear mort. rate of mig. mesopelagic, 15 deg C   d-1 (5e-9)       0.0 - 0.001
