@@ -349,6 +349,15 @@ BFS_mL      0.0       #Linear mortality rate of shallow ff, 15 deg C     d-1 (0.
 BFD_mL       0.0       #Linear mortality rate of deep filt feed, 15 deg C d-1 (0.000001)   0.0 -  0.001
 BML_mL       0.00007    #Linear mortality rate of megazoobenthos, 15 deg C d-1 (0.00037)    0.0 - 0.002
 BMD_mL      0.000002    #Linear mort. rate of deep macrozooben.,  15 deg C d-1 (0.0001)     0.0 - 0.002
+BFF_mL      0.0       #Linear mortality rate of , 15 deg C
+BD_mL      0.0       #Linear mortality rate of , 15 deg C
+BC_mL      0.0       #Linear mortality rate of , 15 deg C
+PB_mL      0.0       #Linear mortality rate of , 15 deg C
+BB_mL      0.0       #Linear mortality rate of , 15 deg C
+BO_mL      0.0       #Linear mortality rate of , 15 deg C
+DL_mL      0.0       #Linear mortality rate of , 15 deg C
+DR_mL      0.0       #Linear mortality rate of , 15 deg C
+DC_mL      0.0       #Linear mortality rate of , 15 deg C
 
 # Invertebrates with age structure
 ### muted and replaced with zeros (below) 20180718 RM
@@ -363,42 +372,70 @@ FPS_mL 2 #     Linear mortality rate of small planktiv, 15 deg C d-1 (5e-9)     
 0 0
 FPO_mL 2 #   Linear mortality rate of other planktiv, 15 deg C d-1 (5e-9)       0.0 - 0.001
 0 0
-FVD_mL 2    # Linear mortality rate of deep pisciv., 15 deg C   d-1              0.0 - 0.00005
+FVD_mL 2     #Linear mortality rate of deep pisciv., 15 deg C   d-1              0.0 - 0.00005
 0 0
-FVV_mL 2    # Linear mortality rate of vul. pisciv., 15 deg C   d-1              0.0 - 0.00005
+FVV_mL 2     #Linear mortality rate of vul. pisciv., 15 deg C   d-1              0.0 - 0.00005
 0 0
-FVS_mL 2   # Linear mort. rate of shallow pisciv., 15 deg C    d-1              0.0 - 0.00005
+FVS_mL 2     #Linear mort. rate of shallow pisciv., 15 deg C    d-1              0.0 - 0.00005
 0 0
-FVT_mL 2  #Linear mort. rate of tropical pisciv., 15 deg C   d-1              0.0 - 0.00005
+FVT_mL 2     #Linear mort. rate of tropical pisciv., 15 deg C   d-1              0.0 - 0.00005
 0 0
-FVB_mL       0.0      Linear mortality rate of other pisciv, 15 deg C   d-1              0.0 - 0.001
-FVO_mL       0.0       Linear mortality rate of other tuna, 15 deg C     d-1              0.0 - 0.00005
-FMM_mL       0.0     Linear mort. rate of mig. mesopelagic, 15 deg C   d-1 (5e-9)       0.0 - 0.001
-FMN_mL       0.0        Linear mort. rate of non-mig mesopelag., 15 deg C d-1 (5e-9)       0.0 - 0.001
-FBP_mL       0.0      Linear mortality rate of other tuna, 15 deg C     d-1              0.0 - 0.00005
-FDD_mL       0.0    Linear mortality rate of deep demersals, 15 deg C d-1 (1.e-10)     0.0 - 0.002
-FDS_mL       0.0     Linear mort. rate of shallow demersals, 15 deg C  d-1              0.0 - 0.001
-FDB_mL       7.5e-13  Linear mortality rate of other shal dem, 15 deg C d-1              0.0 - 0.001
-FDC_mL       0.0	   Linear mortality rate of other deep dem, 15 deg C d-1              0.0 - 0.001
-FDO_mL       0.0       Linear mortality rate of longlived dem, 15 deg C  d-1              0.0 - 0.002
-FDE_mL       0.0     Linear mortality rate of herbiv dem., 15 deg C    d-1              0.0 - 0.002
-FDF_mL       0.0     Linear mortality rate of flat deep dem., 15 deg C d-1  0.0 - 0.00005
-FDM_mL      0.0    Linear mortality rate of misc demersals, 15 deg C d-1              0.0 - 0.002
-FDP_mL       0.0    Linear mortality rate of protected dem., 15 deg C d-1              0.0 - 0.002
-SHD_mL       0.0       Linear mort. rate of demersal sharks, 15 deg C    d-1           0.0 - 0.0002
-SHB_mL       0.0       Linear mortality rate of other sharks, 15 deg C   d-1           0.0 - 0.0002
-SHC_mL       0.0     Linear mort. rate of dogfish, 15 deg C            d-1           0.0 - 0.0002
-SHR_mL       6.0e-13       Linear mortality rate of reef sharks, 15 deg C    d-1           0.0 - 0.0002
-SHP_mL       2.0e-13       Linear mortality rate of pelagic sharks, 15 deg C d-1           0.0 - 0.0002
-SSK_mL       0.0       Linear mort. rate of skates and rays, 15 deg C    d-1           0.0 - 0.0002
-SB_mL        0.0       Linear mortality rate of seabirds, 15 deg C       d-1          0.0 - 0.0004
-SP_mL        0.0      Linear mortality rate of penguins, 15 deg C       d-1           0.0 - 0.001
-REP_mL       0.0       Linear mort. rate of reptiles, 15 deg C           d-1           0.0 - 0.0002
-WDG_mL       0.0       Linear mortality rate of dugongs, 15 deg C        d-1           0.0 - 0.0008
-PIN_mL       0.0       Linear mortality rate of pinnipeds, 15 deg C      d-1           0.0 - 0.0008
-WHB_mL       1.0e-13       Linear mortality rate of baleen whales, 15 deg C  d-1           0.0 - 0.0008
-WHT_mL       1.0e-13       Linear mortality rate of toothed whales, 15 deg C d-1           0.0 - 0.0008
-WHS_mL       0.0       Linear mort. rate of sm. toothed whales, 15 deg C d-1           0.0 - 0.0008
+FVB_mL 2     #Linear mortality rate of other pisciv, 15 deg C   d-1              0.0 - 0.001
+0 0
+FVO_mL 2       #Linear mortality rate of other tuna, 15 deg C     d-1              0.0 - 0.00005
+0 0
+FMM_mL 2      #Linear mort. rate of mig. mesopelagic, 15 deg C   d-1 (5e-9)       0.0 - 0.001
+0 0
+FMN_mL 2      #Linear mort. rate of non-mig mesopelag., 15 deg C d-1 (5e-9)       0.0 - 0.001
+0 0
+FBP_mL 2      #Linear mortality rate of other tuna, 15 deg C     d-1              0.0 - 0.00005
+0 0
+FDD_mL 2      #Linear mortality rate of deep demersals, 15 deg C d-1 (1.e-10)     0.0 - 0.002
+0 0
+FDS_mL 2      #Linear mort. rate of shallow demersals, 15 deg C  d-1              0.0 - 0.001
+0 0
+FDB_mL 2       #Linear mortality rate of other shal dem, 15 deg C d-1              0.0 - 0.001
+0 0
+FDC_mL 2      #Linear mortality rate of other deep dem, 15 deg C d-1              0.0 - 0.001
+0 0
+FDO_mL 2      #Linear mortality rate of longlived dem, 15 deg C  d-1              0.0 - 0.002
+0 0
+FDE_mL 2      #Linear mortality rate of herbiv dem., 15 deg C    d-1              0.0 - 0.002
+0 0
+FDF_mL 2      #Linear mortality rate of flat deep dem., 15 deg C d-1  0.0 - 0.00005
+0 0
+FDM_mL 2      #Linear mortality rate of misc demersals, 15 deg C d-1              0.0 - 0.002
+0 0
+FDP_mL 2      #Linear mortality rate of protected dem., 15 deg C d-1              0.0 - 0.002
+0 0
+SHD_mL 2      #Linear mort. rate of demersal sharks, 15 deg C    d-1           0.0 - 0.0002
+0 0
+SHB_mL 2      #Linear mortality rate of other sharks, 15 deg C   d-1           0.0 - 0.0002
+0 0
+SHC_mL 2      #Linear mort. rate of dogfish, 15 deg C            d-1           0.0 - 0.0002
+0 0
+SHR_mL 2       #Linear mortality rate of reef sharks, 15 deg C    d-1           0.0 - 0.0002
+0 0
+SHP_mL 2      #Linear mortality rate of pelagic sharks, 15 deg C d-1           0.0 - 0.0002
+0 0
+SSK_mL 2      #Linear mort. rate of skates and rays, 15 deg C    d-1           0.0 - 0.0002
+0 0
+SB_mL 2       #Linear mortality rate of seabirds, 15 deg C       d-1          0.0 - 0.0004
+0 0
+SP_mL 2       #Linear mortality rate of penguins, 15 deg C       d-1           0.0 - 0.001
+0 0
+REP_mL 2      #Linear mort. rate of reptiles, 15 deg C           d-1           0.0 - 0.0002
+0 0
+WDG_mL 2      #Linear mortality rate of dugongs, 15 deg C        d-1           0.0 - 0.0008
+0 0
+PIN_mL 2      #Linear mortality rate of pinnipeds, 15 deg C      d-1           0.0 - 0.0008
+0 0
+WHB_mL 2      #Linear mortality rate of baleen whales, 15 deg C  d-1           0.0 - 0.0008
+0 0
+WHT_mL 2      #Linear mortality rate of toothed whales, 15 deg C d-1           0.0 - 0.0008
+0 0
+WHS_mL 2      #Linear mort. rate of sm. toothed whales, 15 deg C d-1           0.0 - 0.0008
+0 0
 
 
 ## Quadratic mortality 
@@ -420,51 +457,88 @@ BMD_mQ       0.0000001 Quad. mort. rate of deep macrozooben., 15 deg C   d-1    
 BG_mQ        0.0       Quad. mortality rate of benthic grazer, 15 deg C  d-1              0.0
 
 # Invertebrates with age structure
-CEP_mQ       1.0e-6   Quad. mortality rate of cephalopods, 15 deg C     d-1 (1.0e-9)     0.0 - 0.0001
-jCEP_mQ      1.0e-6    Quad. mortality rate of juv cephalopods, 15 deg C d-1 (1.0e-9)     0.0 - 0.0001
-PWN_mQ       1.3e-6    Quad. mortality rate of prawns, 15 deg C          d-1              0.0 - 0.0001
-jPWN_mQ      1.3e-6     Quad. mortality rate of juvenile prawns, 15 deg C d-1              0.0 - 0.0001
+CEP_mQ 2      #Quad. mortality rate of cephalopods, 15 deg C     d-1 (1.0e-9)     0.0 - 0.0001
+0 1.0e-6
+PWN_mQ 2      #Quad. mortality rate of prawns, 15 deg C          d-1              0.0 - 0.0001
+0 1.3e-6
 
 # Adult vertebrates
-FPL_mQ       1.0e-16     Quad. mortality rate of large planktiv., 15 deg C d-1 (5.25e-10)   0.0
-FPS_mQ       1.0e-16     Quad. mortality rate of small planktiv., 15 deg C d-1 (1.25e-10)   0.0
-FPO_mQ       1.0e-12    Quad. mortality rate of other planktiv., 15 deg C d-1 (1.25e-10)   0.0
-FVD_mQ       5.0e-10     Quad. mortality rate of deep pisciv., 15 deg C    d-1 (2.5e-15)    0.0 - 0.0002   
-FVV_mQ       5.0e-8  Quad. mortality rate of vulner. pisciv., 15 deg C d-1              0.0 - 0.0002   
-FVS_mQ       1.0e-10  Quad. mortality rate of shallow pisciv, 15 deg C  d-1 (9.5e-11)    0.0 - 0.0002   
-FVT_mQ       1.0e-12    Quad. mortality rate of tropical pisciv, 15 deg C d-1 (2.5e-14)    0.0 - 0.0002   
-FVO_mQ       1.0e-11    Quad. mortality rate of other tuna, 15 deg C      d-1              0.0 - 0.0002   
-FVB_mQ       1.0e-11   Quad. mortality rate of other pisciv., 15 deg C   d-1              0.0 - 0.0002   
-FMM_mQ       1.0e-16    Quad. mortality rate of mig mesopelagic, 15 deg C d-1 (1.25e-10)   0.0
-FMN_mQ       1.0e-9   Quad. mortality rate of non-mig mesopel, 15 deg C d-1 (8.25e-11)   0.0
-FBP_mQ       1.0e-9  Quad. mortality rate of large planktiv., 15 deg C d-1              0.0
-FDD_mQ       1.0e-9   Quad. mortality rate of deep demersal, 15 deg C   d-1 (2.5e-13)    0.0   
-FDS_mQ       1.0e-9   Quad. mort. rate of shallow demersal, 15 deg C    d-1              0.0   
-FDB_mQ       9.0e-10   Quad. mortality rate of other shal dem, 15 deg C  d-1              0.0   
-FDC_mQ       1.0e-9    Quad. mortality rate of other deep dem, 15 deg C  d-1 (1.25e-12)   0.0   
-FDO_mQ       1.0e-13   Quad. mortality rate of longlived dem, 15 deg C   d-1 (2.5e-13)    0.0   
-FDE_mQ       1.0e-10   Quad. mortality rate of herbiv demersal, 15 deg C d-1              0.0   
-FDF_mQ       5.0e-9     Quad. mortality rate of flat deep dem, 15 deg C   d-1              0.0 - 0.0002   
-FDM_mQ       1.0e-7  Quad. mortality rate of misc demersal, 15 deg C   d-1              0.0   
-FDP_mQ       5.0e-8      Quad. mortality rate of protected dem, 15 deg C   d-1              0.0   
-SHD_mQ       1.0e-11   Quad. mortality rate of demersal sharks, 15 deg C d-1              0.0   
-SHB_mQ       1.0e-13    Quad. mortality rate of other sharks, 15 deg C    d-1              0.0   
-SHC_mQ       1.0e-11  Quad. mortality rate of dogfish, 15 deg C         d-1              0.0   
-SHR_mQ       2.0e-6    Quad. mortality rate of reef sharks, 15 deg C     d-1              0.0   
-SHP_mQ       4.0e-6    Quad. mortality rate of pelagic sharks, 15 deg C  d-1              0.0   
-SSK_mQ       5.0e-6   Quad. mortality rate of skates and rays, 15 deg C d-1              0.0   
-SB_mQ        1.0e-7    Quad. mortality rate of seabirds, 15 deg C        d-1              0.0
-SP_mQ        1.0e-15   Quad. mortality rate of penguins, 15 deg C        d-1              0.0
-REP_mQ       6.5e-8    Quad. mortality rate of reptiles, 15 deg C        d-1              0.0   
-WDG_mQ       9.5e-7    Quad. mortality rate of dugongs, 15 deg C         d-1              0.0   
-PIN_mQ       1.0e-5  Quad. mortality rate of pinnipeds, 15 deg C       d-1              0.0   
-WHB_mQ       5.0e-8    Quad. mortality rate of baleen whales, 15 deg C   d-1              0.0   
-WHS_mQ       4.0e-7   Quad. mortality rate of sm tooth whales, 15 deg C d-1              0.0   
-WHT_mQ       1.0e-5    Quad. mortality rate of toothed whales, 15 deg C  d-1              0.0   
+FVT_mQ 2      #Quad. mortality rate of , 15 deg C d-1 
+0 0
+FPL_mQ 2      #Quad. mortality rate of large planktiv., 15 deg C d-1 (5.25e-10)   0.0
+0 1.0e-16
+FPS_mQ 2      #Quad. mortality rate of small planktiv., 15 deg C d-1 (1.25e-10)   0.0
+0 1.0e-16
+FPO_mQ 2      #Quad. mortality rate of other planktiv., 15 deg C d-1 (1.25e-10)   0.0
+0 1.0e-12
+FVD_mQ 2      #Quad. mortality rate of deep pisciv., 15 deg C    d-1 (2.5e-15)    0.0 - 0.0002   
+0 5.0e-10
+FVV_mQ 2      #Quad. mortality rate of vulner. pisciv., 15 deg C d-1              0.0 - 0.0002   
+0 5.0e-8
+FVS_mQ 2      #Quad. mortality rate of shallow pisciv, 15 deg C  d-1 (9.5e-11)    0.0 - 0.0002   FVT_mQ       1.0e-12    Quad. mortality rate of tropical pisciv, 15 deg C d-1 (2.5e-14)    0.0 - 0.0002   
+0 1.0e-10
+FVO_mQ 2      #Quad. mortality rate of other tuna, 15 deg C      d-1              0.0 - 0.0002   
+0 1.0e-11
+FVB_mQ 2      #Quad. mortality rate of other pisciv., 15 deg C   d-1              0.0 - 0.0002   
+0 1.0e-11
+FMM_mQ 2      #Quad. mortality rate of mig mesopelagic, 15 deg C d-1 (1.25e-10)   0.0
+0 1.0e-16
+FMN_mQ 2      #Quad. mortality rate of non-mig mesopel, 15 deg C d-1 (8.25e-11)   0.0
+0 1.0e-9
+FBP_mQ 2      #Quad. mortality rate of large planktiv., 15 deg C d-1              0.0
+0 1.0e-9
+FDD_mQ 2      #Quad. mortality rate of deep demersal, 15 deg C   d-1 (2.5e-13)    0.0   
+0 1.0e-9
+FDS_mQ 2      #Quad. mort. rate of shallow demersal, 15 deg C    d-1              0.0   
+0 1.0e-9
+FDB_mQ 2      #Quad. mortality rate of other shal dem, 15 deg C  d-1              0.0   
+0 9.0e-10
+FDC_mQ 2      #Quad. mortality rate of other deep dem, 15 deg C  d-1 (1.25e-12)   0.0   
+0 1.0e-9
+FDO_mQ 2       #Quad. mortality rate of longlived dem, 15 deg C   d-1 (2.5e-13)    0.0   
+0 1.0e-13
+FDE_mQ 2      #Quad. mortality rate of herbiv demersal, 15 deg C d-1              0.0   
+0 1.0e-10
+FDF_mQ 2      #Quad. mortality rate of flat deep dem, 15 deg C   d-1              0.0 - 0.0002   
+0 5.0e-9
+FDM_mQ 2      #Quad. mortality rate of misc demersal, 15 deg C   d-1              0.0   
+0 1.0e-7
+FDP_mQ 2      #Quad. mortality rate of protected dem, 15 deg C   d-1              0.0   
+0 5.0e-8
+SHD_mQ 2      #Quad. mortality rate of demersal sharks, 15 deg C d-1              0.0   
+0 1.0e-11
+SHB_mQ 2      #Quad. mortality rate of other sharks, 15 deg C    d-1              0.0   
+0 1.0e-13
+SHC_mQ 2      #Quad. mortality rate of dogfish, 15 deg C         d-1              0.0   
+0 1.0e-11
+SHR_mQ 2      #Quad. mortality rate of reef sharks, 15 deg C     d-1              0.0   
+0 2.0e-6
+SHP_mQ 2      #Quad. mortality rate of pelagic sharks, 15 deg C  d-1              0.0   
+0 4.0e-6
+SSK_mQ 2      #uad. mortality rate of skates and rays, 15 deg C d-1              0.0   
+0 5.0e-6
+SB_mQ 2       #Quad. mortality rate of seabirds, 15 deg C        d-1              0.0
+0 1.0e-7
+SP_mQ 2       #Quad. mortality rate of penguins, 15 deg C        d-1              0.0
+0 1.0e-15
+REP_mQ 2      #Quad. mortality rate of reptiles, 15 deg C        d-1              0.0   
+0 6.5e-8
+WDG_mQ 2      #Quad. mortality rate of dugongs, 15 deg C         d-1              0.0   
+0 9.5e-7
+PIN_mQ 2      #Quad. mortality rate of pinnipeds, 15 deg C       d-1              0.0   
+0 1.0e-5
+WHB_mQ 2      #Quad. mortality rate of baleen whales, 15 deg C   d-1              0.0   
+0 5.0e-8
+WHS_mQ 2      #Quad. mortality rate of sm tooth whales, 15 deg C d-1              0.0   
+0 4.0e-7 
+WHT_mQ 2      #Quad. mortality rate of toothed whales, 15 deg C  d-1              0.0   
+0 1.0e-5
 
 #Terminal (senescence mortality) for biomass pools (proportion of terminal age group dying)
 ### param added from SETAS based on warning, RM 20180228 These could be higher - 10%
 mT_LSQ 1.0
+mT_CEP 1.0
+mT_PWN 1.0
 # Entry value for cohort where recruits turn up - in almost all instances this should be zero, except where there is a complicated life history like salmon
 
 FPL_cohort_recruit_entry 0
@@ -532,6 +606,8 @@ DC_cohort_recruit_entry 0
 ## Proportion of the biomass of age structured biomass pool lost to spawning (i.e. what proportion of the spawning adult biomass is lost via gamete release)
 ## Simplest case is to set to 0.0, this is effectively what it was in the original Atlantis code
 prop_spawn_lost_ISQ  0.0
+prop_spawn_lost_CEP  0.0
+prop_spawn_lost_PWN  0.0
 # Flag indicating whether scaling or forcing KWST in recruitment. 0 = none, 1 = scalar from .ts multiplied to current recruit production, 2 = forced from .ts
 flag_modify_KWSR 0
 # RM added 20170509
@@ -846,9 +922,9 @@ flagBMS  0  BMS: 1 = on, 0 = off 1
 flagBMD  0  BMD: 1 = on, 0 = off 1                  
 flagBML  0  BML: 1 = on, 0 = off 1                  
 flagCEP  1  CEP: 1 = on, 0 = off 1                  
-flagjCEP 1  jCEP: 1 = on, 0 = off 1                  
+#flagjCEP 1  jCEP: 1 = on, 0 = off 1                  
 flagPWN  1  PWN: 1 = on, 0 = off 1                  
-flagjPWN 1  jPWN: 1 = on, 0 = off 1                  
+#flagjPWN 1  jPWN: 1 = on, 0 = off 1                  
 flagDR 1
 flagDC 1
 flagDL 1 
@@ -913,9 +989,9 @@ flagdemBMS 0 BMS: 1 = on, 0 = off 1
 flagdemBMD 1 BMD: 1 = on, 0 = off 1                  
 flagdemBML 1 BML: 1 = on, 0 = off 1                  
 flagdemCEP 1 CEP: 1 = on, 0 = off 1                  
-flagdemjCEP 0 jCEP: 1 = on, 0 = off 1                  
+#flagdemjCEP 0 jCEP: 1 = on, 0 = off 1                  
 flagdemPWN 1 PWN: 1 = on, 0 = off 1                  
-flagdemjPWN 1 jPWN: 1 = on, 0 = off 1                  
+#flagdemjPWN 1 jPWN: 1 = on, 0 = off 1                  
 
 # Flag indicating whether or not the vertebrate is a planktivore                 
 flagplankfishFPS  1  FPS: 1 = yes, 0 = no 1                  
@@ -1434,9 +1510,9 @@ flagZLMigrate  	1  0=always remain within the model domain, 1+=migrate in/out of
 flagBMLMigrate  0  0=always remain within the model domain, 1+=migrate in/out of the model               
 flagBMSMigrate  0  0=always remain within the model domain, 1+=migrate in/out of the model               
 
-flagjCEPMigrate 0  0=always remain within the model domain, 1+=migrate in/out of the model               
+#flagjCEPMigrate 0  0=always remain within the model domain, 1+=migrate in/out of the model               
 flagCEPMigrate  1  0=always remain within the model domain, 1+=migrate in/out of the model               
-flagjPWNMigrate 1  0=always remain within the model domain, 1+=migrate in/out of the model               
+#flagjPWNMigrate 1  0=always remain within the model domain, 1+=migrate in/out of the model               
 flagPWNMigrate  1  0=always remain within the model domain, 1+=migrate in/out of the model               
 
                      
@@ -1627,9 +1703,9 @@ flagBMSday  2 Active: 2 = no preference, 1 = day, 0 = night 2
 flagBMLday  2 Active: 2 = no preference, 1 = day, 0 = night 2              
 flagBMDday  0 Active: 2 = no preference, 1 = day, 0 = night 2              
 flagCEPday  2 Active: 2 = no preference, 1 = day, 0 = night 2              
-flagjCEPday 0 Active: 2 = no preference, 1 = day, 0 = night 2              
+#flagjCEPday 0 Active: 2 = no preference, 1 = day, 0 = night 2              
 flagPWNday  2 Active: 2 = no preference, 1 = day, 0 = night 2              
-flagjPWNday  2 Active: 2 = no preference, 1 = day, 0 = night 2              
+#flagjPWNday  2 Active: 2 = no preference, 1 = day, 0 = night 2              
 flagDFday  0
 
 ## Physical and chemical parameters          
@@ -8156,9 +8232,9 @@ mum_BO_T15       0.2     Growth rate of meiobenthos           mg N d-1          
 mum_PB_T15       1.2     Growth rate of pelagic bacteria     mg N d-1       1.0 - 2.0
 mum_BB_T15       1.5      Growth rate of sediment bacteria    mg N d-1       1.0 - 2.0
 mum_CEP_T15   0.1   Growth rate of cephalopods (from AMS was 0.05 in NSW) mg N d-1 0.02 - 0.35                
-mum_jCEP_T15   0.03  Growth rate of juvenile cephalopods (from AMS was 0.05 in NSW) mg N d-1 0.02 - 0.35               
+#mum_jCEP_T15   0.03  Growth rate of juvenile cephalopods (from AMS was 0.05 in NSW) mg N d-1 0.02 - 0.35               
 mum_PWN_T15   0.008 Growth rate of prawns (from AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015              
-mum_jPWN_T15   0.01  Growth rate of juvenile prawns (From AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015               
+#mum_jPWN_T15   0.01  Growth rate of juvenile prawns (From AMS was 0.004 in NSW) mg N d-1 0.0015 - 0.015               
              
 # Vertebrate growth rates for each group, per age class mg N d-1               
 #Growth rate by age class
@@ -9768,10 +9844,10 @@ WHT_Time_Spawn  280  Time of year toothed whales mate d 0 - 360
 
 #date of spawning, first entry is the autumn cohort, second is the spring
 CEP_Time_Spawn 182
-jCEP_Time_Spawn -1  #74
+#jCEP_Time_Spawn -1  #74
 
 PWN_Time_Spawn 182   Start at Jul 1 but Atlantis may force all spawning to happen on 1 day
-jPWN_Time_Spawn -1   use -1 for no spawning - also need to set aging value to -1
+#jPWN_Time_Spawn -1   use -1 for no spawning - also need to set aging value to -1
                
 FPL_spawn_period  90  Period of spawning for large planktivores d 1 - 365                
 FPS_spawn_period  90  Period of spawning for small planktivores d 1 - 365                
@@ -9846,6 +9922,7 @@ WHS_Recruit_Time  105
 REP_Recruit_Time  56
 
 CEP_Recruit_Time  93
+PWN_Recruit_Time  93
 
 # Recruitment window            
 Recruit_Period_FPL  30  Length of time recruits arrive over for large planktiv d 15 - 90             
@@ -9885,6 +9962,7 @@ Recruit_Period_WHS  10  Length of time recruits arrive over for sm tooth whales 
 Recruit_Period_WHT  10  Length of time recruits arrive over for toothed whales d 15 - 90            
 
 Recruit_Period_CEP   60  Length of time recruits arrive over for brief squid   d 15 - 90     
+Recruit_Period_PWN   60  Length of time recruits arrive over for    d 15 - 90
 
 KSPA_FPL  100     Constant in spawning formulation for large planktivores 31.93                  
 KSPA_FPS  0.1   Constant in spawning formulation for small planktivores 5.3                  
@@ -9924,6 +10002,8 @@ KSPA_WHT  38376.9  Constant in spawning formulation for toothed whales 38376.9
 
 KSPA_CEP  158.25   Constant in spawning formulation for brief squid (from other tuna) 158.25                  
 FSP_CEP  0.276   Fraction used in spawning formulation for brief squid (from other tuna) 0.276                 
+FSP_PWN  0.276   Fraction used in spawning formulation for 
+
 
 FSP_FPL  0.246   Fraction used in spawning formulation for large planktivores 0.246                 
 FSP_FPS  0.246   Fraction used in spawning formulation for small planktivores 0.246                 
