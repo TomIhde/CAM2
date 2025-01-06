@@ -349,47 +349,6 @@ BFS_mL      0.0       Linear mortality rate of shallow ff, 15 deg C     d-1 (0.0
 BFD_mL       0.0       Linear mortality rate of deep filt feed, 15 deg C d-1 (0.000001)   0.0 -  0.001
 BML_mL       0.00007    Linear mortality rate of megazoobenthos, 15 deg C d-1 (0.00037)    0.0 - 0.002
 BMD_mL      0.000002    Linear mort. rate of deep macrozooben.,  15 deg C d-1 (0.0001)     0.0 - 0.002
-CEP_mL       0.0    Linear mortality rate of cephalopods, 15 deg C    d-1 (0.002)      0.0 - 0.01
-jCEP_mL      0.0    Linear mortality rate of juv cephal., 15 deg C    d-1 (0.002)      0.0 - 0.01
-PWN_mL      0.0    Linear mortality rate of prawns, 15 deg C         d-1 (0.002)      0.0 - 0.01
-jPWN_mL      0.0   Linear mortality rate of juv prawns, 15 deg C     d-1 (0.002)      0.0 - 0.01
-FPL_mL       0.0     Linear mortality rate of lg planktiv., 15 deg C   d-1 (5e-7)       0.0 - 0.001
-FPS_mL       0.0      Linear mortality rate of small planktiv, 15 deg C d-1 (5e-9)       0.0 - 0.001
-FPO_mL      0.0    Linear mortality rate of other planktiv, 15 deg C d-1 (5e-9)       0.0 - 0.001
-FVD_mL       0.0   Linear mortality rate of deep pisciv., 15 deg C   d-1              0.0 - 0.00005
-FVV_mL       0.0   Linear mortality rate of vul. pisciv., 15 deg C   d-1              0.0 - 0.00005
-FVS_mL       0.0   Linear mort. rate of shallow pisciv., 15 deg C    d-1              0.0 - 0.00005
-FVT_mL       0.0   Linear mort. rate of tropical pisciv., 15 deg C   d-1              0.0 - 0.00005
-FVB_mL       0.0      Linear mortality rate of other pisciv, 15 deg C   d-1              0.0 - 0.001
-FVO_mL       0.0       Linear mortality rate of other tuna, 15 deg C     d-1              0.0 - 0.00005
-FMM_mL       0.0     Linear mort. rate of mig. mesopelagic, 15 deg C   d-1 (5e-9)       0.0 - 0.001
-FMN_mL       0.0        Linear mort. rate of non-mig mesopelag., 15 deg C d-1 (5e-9)       0.0 - 0.001
-FBP_mL       0.0      Linear mortality rate of other tuna, 15 deg C     d-1              0.0 - 0.00005
-FDD_mL       0.0    Linear mortality rate of deep demersals, 15 deg C d-1 (1.e-10)     0.0 - 0.002
-FDS_mL       0.0     Linear mort. rate of shallow demersals, 15 deg C  d-1              0.0 - 0.001
-FDB_mL       7.5e-13  Linear mortality rate of other shal dem, 15 deg C d-1              0.0 - 0.001
-FDC_mL       0.0	   Linear mortality rate of other deep dem, 15 deg C d-1              0.0 - 0.001
-FDO_mL       0.0       Linear mortality rate of longlived dem, 15 deg C  d-1              0.0 - 0.002
-FDE_mL       0.0     Linear mortality rate of herbiv dem., 15 deg C    d-1              0.0 - 0.002
-FDF_mL       0.0     Linear mortality rate of flat deep dem., 15 deg C d-1  0.0 - 0.00005
-FDM_mL      0.0    Linear mortality rate of misc demersals, 15 deg C d-1              0.0 - 0.002
-FDP_mL       0.0    Linear mortality rate of protected dem., 15 deg C d-1              0.0 - 0.002
-SHD_mL       0.0       Linear mort. rate of demersal sharks, 15 deg C    d-1           0.0 - 0.0002
-SHB_mL       0.0       Linear mortality rate of other sharks, 15 deg C   d-1           0.0 - 0.0002
-SHC_mL       0.0     Linear mort. rate of dogfish, 15 deg C            d-1           0.0 - 0.0002
-SHR_mL       6.0e-13       Linear mortality rate of reef sharks, 15 deg C    d-1           0.0 - 0.0002
-SHP_mL       2.0e-13       Linear mortality rate of pelagic sharks, 15 deg C d-1           0.0 - 0.0002
-SSK_mL       0.0       Linear mort. rate of skates and rays, 15 deg C    d-1           0.0 - 0.0002
-SB_mL        0.0       Linear mortality rate of seabirds, 15 deg C       d-1          0.0 - 0.0004
-SP_mL        0.0      Linear mortality rate of penguins, 15 deg C       d-1           0.0 - 0.001
-REP_mL       0.0       Linear mort. rate of reptiles, 15 deg C           d-1           0.0 - 0.0002
-WDG_mL       0.0       Linear mortality rate of dugongs, 15 deg C        d-1           0.0 - 0.0008
-PIN_mL       0.0       Linear mortality rate of pinnipeds, 15 deg C      d-1           0.0 - 0.0008
-WHB_mL       1.0e-13       Linear mortality rate of baleen whales, 15 deg C  d-1           0.0 - 0.0008
-WHT_mL       1.0e-13       Linear mortality rate of toothed whales, 15 deg C d-1           0.0 - 0.0008
-WHS_mL       0.0       Linear mort. rate of sm. toothed whales, 15 deg C d-1           0.0 - 0.0008
-
-
 
 
 ## Quadratic mortality 
