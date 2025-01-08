@@ -8095,29 +8095,29 @@ k_refDR    20   Reference refract. detrit. level in water column (if higher avai
 k_refsDL   10000   Reference labile detrit. level in sediments (if higher availability to omnivores reduced)              
 
 # Clearance rates for consumers - this is used by Holling type feeding (predcase 0, 1, 2)           
-C_ZG_T15  0.02  Clearance rate of gelatinous zooplankton -0.008 mg3(mg N)-1 d-1 0.02 - 0.08              
-C_ZL_T15  0.002  Clearance rate of large zooplankton -0.01 mg3(mg N)-1 d-1 0.02 - 0.08              
-C_ZM_T15  0.0556    Clearance rate of meso-zooplankton -0.045 mg3(mg N)-1 d-1 0.05 - 0.1               
-C_ZS_T15  0.29   Clearance rate of small zooplankton mg3(mg N)-1 d-1 0.2 - 0.4               
-C_DF_T15  0.07  Clearance rate of dinoflagellates mg3(mg N)-1 d-1 0.2 - 0.4                
-C_BFS_T15  0.008  Clearance rate of shallow filter feeders mg3(mg N)-1 d-1 0.0005 - 0.015              
-C_BFD_T15  0.003  Clearance rate of deep filter feeders mg3(mg N)-1 d-1 0.0005 - 0.015              
-C_BFF_T15  0.002  Clearance rate of other filter feeders mg3(mg N)-1 d-1 0.0005 - 0.015              
-C_BD_T15  0.007  Clearance rate of benth deposit feeders mg3(mg N)-1 d-1 0.00055 - 0.02              
-C_BC_T15  0.0002  Clearance rate of benth inf carniv -0.001 mg3(mg N)-1 d-1 0.0004 - 0.012             
-C_BG_T15  0.004 Clearance rate of benthic grazers -0.00004 mg3(mg N)-1 d-1 0.00005 - 0.003              
-C_BMS_T15  0.0019  Clearance rate of shallow macrozoobenthos mg3(mg N)-1 d-1 0.0002 - 0.004               
-C_BML_T15  0.016  Clearance rate of megazoobenthos mg3(mg N)-1 d-1 0.0002 - 0.004                
-C_BMD_T15  0.004  Clearance rate of deep macrozoobenthos mg3(mg N)-1 d-1 0.0002 - 0.004               
-C_BO_T15  0.03   Clearance rate of meiobenthos mg3(mg N)-1 d-1 0.001 - 0.05                
-C_CEP_T15  0.0019  Clearance rate of cephalopods mg3(mg N)-1 d-1 0.1 - 0.2                
-#C_jCEP_T15  0.0015  Clearance rate of juvenile cephalopods mg3(mg N)-1d-1 0.1 - 0.2                
-C_PWN_T15  0.0008  Clearance rate of prawns mg3(mg N)-1d-1 0.0002 - 0.004                 
-#C_jPWN_T15  0.004  Clearance rate of juvenile prawns mg3(mg N)-1d-1 0.0002 - 0.004                
+C_ZG_T15  0.02  #Clearance rate of gelatinous zooplankton -0.008 mg3(mg N)-1 d-1 0.02 - 0.08              
+C_ZL_T15  0.002  #Clearance rate of large zooplankton -0.01 mg3(mg N)-1 d-1 0.02 - 0.08              
+C_ZM_T15  0.0556    #Clearance rate of meso-zooplankton -0.045 mg3(mg N)-1 d-1 0.05 - 0.1               
+C_ZS_T15  0.29   #Clearance rate of small zooplankton mg3(mg N)-1 d-1 0.2 - 0.4               
+C_DF_T15  0.07  #Clearance rate of dinoflagellates mg3(mg N)-1 d-1 0.2 - 0.4                
+C_BFS_T15  0.008  #Clearance rate of shallow filter feeders mg3(mg N)-1 d-1 0.0005 - 0.015              
+C_BFD_T15  0.003  #Clearance rate of deep filter feeders mg3(mg N)-1 d-1 0.0005 - 0.015              
+C_BFF_T15  0.002  #Clearance rate of other filter feeders mg3(mg N)-1 d-1 0.0005 - 0.015              
+C_BD_T15  0.007  #Clearance rate of benth deposit feeders mg3(mg N)-1 d-1 0.00055 - 0.02              
+C_BC_T15  0.0002  #Clearance rate of benth inf carniv -0.001 mg3(mg N)-1 d-1 0.0004 - 0.012             
+C_BG_T15  0.004 #Clearance rate of benthic grazers -0.00004 mg3(mg N)-1 d-1 0.00005 - 0.003              
+C_BMS_T15  0.0019  #Clearance rate of shallow macrozoobenthos mg3(mg N)-1 d-1 0.0002 - 0.004               
+C_BML_T15  0.016  #Clearance rate of megazoobenthos mg3(mg N)-1 d-1 0.0002 - 0.004                
+C_BMD_T15  0.004  #Clearance rate of deep macrozoobenthos mg3(mg N)-1 d-1 0.0002 - 0.004               
+C_BO_T15  0.03   #Clearance rate of meiobenthos mg3(mg N)-1 d-1 0.001 - 0.05                
+C_CEP_T15  0.0019  #Clearance rate of cephalopods mg3(mg N)-1 d-1 0.1 - 0.2                
+#C_jCEP_T15  0.0015  #Clearance rate of juvenile cephalopods mg3(mg N)-1d-1 0.1 - 0.2                
+C_PWN_T15  0.0008  #Clearance rate of prawns mg3(mg N)-1d-1 0.0002 - 0.004                 
+#C_jPWN_T15  0.004  #Clearance rate of juvenile prawns mg3(mg N)-1d-1 0.0002 - 0.004                
 
 # Bacteria need C_ param for read-in but not used - see bacteria colonistation and uptake params above
-C_PB_T15         0.0       Clearance rate of pelagic bacteria     mg3(mg N)-1 d-1  0.001 - 0.05  
-C_BB_T15         0.0       Clearance rate of benthic bacteria     mg3(mg N)-1 d-1  0.001 - 0.05  
+C_PB_T15         0.0       #Clearance rate of pelagic bacteria     mg3(mg N)-1 d-1  0.001 - 0.05  
+C_BB_T15         0.0       #Clearance rate of benthic bacteria     mg3(mg N)-1 d-1  0.001 - 0.05  
 
 # Clearance rate of each vertebrate group, per age class mg3(mg N)-1 d-1               
 flagfishrates  0  Switch to show whether clearance and growth rates are absolute=0, or as proportion of body mass=1          
