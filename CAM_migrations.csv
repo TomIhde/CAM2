@@ -1,8 +1,6 @@
 GroupCode,StartStage,MigID,StartTofY,EndTofY,Leave_Period,Return_Period,isAnnualMigration,MinTimeAway,MaxTimeAway,MigrateStockReturn,MigPropSizeInc,MigPropSurvive
 ZL,0,0,319,91,15,15,1,0,0,0,0,0.85
-jCEP,0,0,0,91,1,1,1,0,0,0,0,1
 CEP,0,0,335,74,30,30,1,0,0,0,0,0
-jPWN,0,0,305,91,3,3,1,0,0,0,0,1
 PWN,0,0,305,91,15,15,1,0,0,0,0,1
 FPS,0,0,277,319,3,3,1,0,0,0,0,1
 FPS,1,0,288,105,30,30,1,0,0,0,0,1
