@@ -8111,9 +8111,9 @@ C_BML_T15  0.016  #Clearance rate of megazoobenthos mg3(mg N)-1 d-1 0.0002 - 0.0
 C_BMD_T15  0.004  #Clearance rate of deep macrozoobenthos mg3(mg N)-1 d-1 0.0002 - 0.004               
 C_BO_T15  0.03   #Clearance rate of meiobenthos mg3(mg N)-1 d-1 0.001 - 0.05                
 C_CEP_T15  0.0019  #Clearance rate of cephalopods mg3(mg N)-1 d-1 0.1 - 0.2                
-#C_jCEP_T15  0.0015  #Clearance rate of juvenile cephalopods mg3(mg N)-1d-1 0.1 - 0.2                
+C_jCEP_T15  0.0015  #Clearance rate of juvenile cephalopods mg3(mg N)-1d-1 0.1 - 0.2                
 C_PWN_T15  0.0008  #Clearance rate of prawns mg3(mg N)-1d-1 0.0002 - 0.004                 
-#C_jPWN_T15  0.004  #Clearance rate of juvenile prawns mg3(mg N)-1d-1 0.0002 - 0.004                
+C_jPWN_T15  0.004  #Clearance rate of juvenile prawns mg3(mg N)-1d-1 0.0002 - 0.004                
 
 # Bacteria need C_ param for read-in but not used - see bacteria colonistation and uptake params above
 C_PB_T15         0.0       #Clearance rate of pelagic bacteria     mg3(mg N)-1 d-1  0.001 - 0.05  
