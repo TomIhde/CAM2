@@ -12,7 +12,7 @@ trackAtomicRatio 0
 flag_age_output 0   #Flag showing whether want Marie's seagrass model used
 
 flagecon_on        0   # Flag showing whether want economics loaded and submodel run (1) or not (0)
-flag_fisheries_on  1   # Flag showing whether want fisheries loaded and submodel run (1) or not (0)
+flag_fisheries_on  0   # Flag showing whether want fisheries loaded and submodel run (1) or not (0)
 
 flag_skip_biol     0   # Flag showing whether want biological model run (0) or not (1 - only used when debugging fisheries)
 flag_skip_phys    0   # Flag showing whether want physics model run (0) or not (1 - only used when debugging fisheries)
@@ -66,7 +66,7 @@ K_num_detritus   3     # Total number of detritus groups in the model (labile an
 # Parameters defining the numbers of certain types of fisheries 
 # (needed to  parameter arrays in the initialisation section of the model,
 # best left untouched for now) 
-K_num_fisheries   33   # Maximum number of fisheries
+K_num_fisheries   28   # Maximum number of fisheries
 K_num_subfleet    5    # Maximum number of sub fleets (vessel types)
 K_num_fished_sp   47   # Maximum number of groups targeted by fishing 
 K_num_impacted_sp 51   # Maxiumum number of groups impacted by fishing (target or bycatch) 
@@ -239,7 +239,7 @@ flag_pollutant_factors 0
 
 # 6626
 flag_contam_sanity_check 0
-flag_migration_on 1
+flag_migration_on 0
 
 # 6631
 flagIsPolar 0 # Flag indicating polar - so there will be 24 hrs of daylight/night seasonally
