@@ -8044,25 +8044,25 @@ KUP_BML    0.1 Upper prey selection size limit for megazoobenthos   0.2 - 0.7
 KUP_BMS    0.1 Upper prey selection size limit for shallow macrozoobenthos   0.2 - 0.7
 KUP_BMD    0.1 Upper prey selection size limit for deep macrozoobenthos   0.2 - 0.7
 
-KUP_PL     0 
-KUP_PS     0 
-KUP_DF     0 
-KUP_MA     0     
-KUP_MB     0     
-KUP_SG     0     
+KUP_PL     0.1 
+KUP_PS     0.1 
+KUP_DF     0.1 
+KUP_MA     0.1     
+KUP_MB     0.1     
+KUP_SG     0.1     
 KUP_ZG     0.5     
-KUP_ZL     0     
-KUP_ZM     0     
-KUP_ZS     0     
-KUP_PB     0     
-KUP_BB     0     
-KUP_BO     0     
-KUP_BD     0     
-KUP_BC     0     
-KUP_BFS    0     
-KUP_BFD    0     
-KUP_BFF    0     
-KUP_BG     0     
+KUP_ZL     0.1     
+KUP_ZM     0.1     
+KUP_ZS     0.1     
+KUP_PB     0.1     
+KUP_BB     0.1     
+KUP_BO     0.1     
+KUP_BD     0.1     
+KUP_BC     0.1     
+KUP_BFS    0.1     
+KUP_BFD    0.1     
+KUP_BFF    0.1     
+KUP_BG     0.1     
 
 CEP_sn           2375.0    Ref. AFDW for adult cephal. so can determine avail fish groups (=20cm squid)
 #jCEP_sn          375.0     Ref. AFDW for juv cephal. so can determine avail fish groups (=10cm, squid)
