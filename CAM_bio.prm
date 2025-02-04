@@ -12545,41 +12545,1381 @@ DL_turbid_b	30.0
 DR_turbid_b	30.0
 DC_turbid_b	30.0
 ########################################################## End added by Emily
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ # Added by Raisha
+## -- Contaminants Parameters-- ##
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+flag_dissolved_pollutants  		1     Whether the contaminants are dissolved and transmitted in excretion (1) or not (0)
+flag_contamMortModel       		1     Simple model from Laender et al 2008 (1) or compound model from InVitro (0)
+flag_contamInteractModel   		0     No contaminant interactions (0), Additive interactions (1), Multiplicative interactions (2), Most limiting contaminant dominates (3)
+flag_contamGrowthModel     		0     No growth effects of contaminants (0), InVitro representation (1), logistic model (2)
+flag_contamMove            		0     Flag indicating avoidance scalar used - 0 = none, 1 = knife-edge, 2 = sigmoidal, 3 = left shoulder flat top
+flag_contamOnlyAmplify     		1     Whether the interacting contaminants can only amplify (1) or can buffer/negate each other too (0)
+flag_contamMinTemp         		1.0   Minimum temperature to consider in contaminants relationships that involve temperature corrections
+flag_contam_halflife_spbased	1	  Set it to 1 for species specific half life
+
+biopools_dodge_contam 0
+
+# Coefficient indicating degree of dissolubility of the material
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+Naphthalene_dissolv_coefft 1
+
+# Half life in seconds
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+Naphthalene_half_life 259200
+
+# Temperature dependent - Flag indicating whether the contaminant effect is temperature dependent
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+Naphthalene_temp_depend 0
+
+contam_tau 0.11
+
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+## Uptake model
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_uptake_option 1
+FPS_Naphthalene_uptake_option 1
+FSA_Naphthalene_uptake_option 1
+FCH_Naphthalene_uptake_option 1
+FCO_Naphthalene_uptake_option 1
+FSS_Naphthalene_uptake_option 1
+FPI_Naphthalene_uptake_option 1
+FCU_Naphthalene_uptake_option 1
+FSO_Naphthalene_uptake_option 1
+HCH_Naphthalene_uptake_option 1
+HCO_Naphthalene_uptake_option 1
+HSS_Naphthalene_uptake_option 1
+FHK_Naphthalene_uptake_option 1
+FPO_Naphthalene_uptake_option 1
+FLC_Naphthalene_uptake_option 1
+FBP_Naphthalene_uptake_option 1
+FDS_Naphthalene_uptake_option 1
+FDL_Naphthalene_uptake_option 1
+FRO_Naphthalene_uptake_option 1
+FFS_Naphthalene_uptake_option 1
+FFL_Naphthalene_uptake_option 1
+SHD_Naphthalene_uptake_option 1
+SHS_Naphthalene_uptake_option 1
+SRA_Naphthalene_uptake_option 1
+SSK_Naphthalene_uptake_option 1
+SB_Naphthalene_uptake_option 1
+SP_Naphthalene_uptake_option 1
+CSL_Naphthalene_uptake_option 1
+HSL_Naphthalene_uptake_option 1
+PHR_Naphthalene_uptake_option 1
+ORR_Naphthalene_uptake_option 1
+ORT_Naphthalene_uptake_option 1
+WHB_Naphthalene_uptake_option 1
+BRL_Naphthalene_uptake_option 1
+DCR_Naphthalene_uptake_option 1
+BIV_Naphthalene_uptake_option 1
+CEP_Naphthalene_uptake_option 1
+BFF_Naphthalene_uptake_option 1
+SPH_Naphthalene_uptake_option 1
+BG_Naphthalene_uptake_option 1
+BMD_Naphthalene_uptake_option 1
+PWN_Naphthalene_uptake_option 1
+BD_Naphthalene_uptake_option 1
+BC_Naphthalene_uptake_option 1
+MA_Naphthalene_uptake_option 1
+SG_Naphthalene_uptake_option 1
+ZG_Naphthalene_uptake_option 1
+PL_Naphthalene_uptake_option 1
+PS_Naphthalene_uptake_option 1
+ZL_Naphthalene_uptake_option 1
+ZM_Naphthalene_uptake_option 1
+ZS_Naphthalene_uptake_option 1
+PB_Naphthalene_uptake_option 1
+BB_Naphthalene_uptake_option 1
+BO_Naphthalene_uptake_option 1
+
+## Rates of uptake - in per day.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_uptake_rate 1.0e-09 #0.001
+FPS_Naphthalene_uptake_rate 1.0e-09
+FSA_Naphthalene_uptake_rate 1.0e-09
+FCH_Naphthalene_uptake_rate 1.0e-09
+FCO_Naphthalene_uptake_rate 1.0e-09
+FSS_Naphthalene_uptake_rate 1.0e-09
+FPI_Naphthalene_uptake_rate 1.0e-09
+FCU_Naphthalene_uptake_rate 1.0e-09
+FSO_Naphthalene_uptake_rate 1.0e-09
+HCH_Naphthalene_uptake_rate 1.0e-09
+HCO_Naphthalene_uptake_rate 1.0e-09
+HSS_Naphthalene_uptake_rate 1.0e-09
+FHK_Naphthalene_uptake_rate 1.0e-09
+FPO_Naphthalene_uptake_rate 1.0e-09
+FLC_Naphthalene_uptake_rate 1.0e-09
+FBP_Naphthalene_uptake_rate 1.0e-09
+FDS_Naphthalene_uptake_rate 1.0e-09
+FDL_Naphthalene_uptake_rate 1.0e-09
+FRO_Naphthalene_uptake_rate 1.0e-09
+FFS_Naphthalene_uptake_rate 1.0e-09
+FFL_Naphthalene_uptake_rate 1.0e-09
+SHD_Naphthalene_uptake_rate 1.0e-09
+SHS_Naphthalene_uptake_rate 1.0e-09
+SRA_Naphthalene_uptake_rate 1.0e-09
+SSK_Naphthalene_uptake_rate 1.0e-09
+SB_Naphthalene_uptake_rate 1.0e-09
+SP_Naphthalene_uptake_rate 1.0e-09
+CSL_Naphthalene_uptake_rate 1.0e-09
+HSL_Naphthalene_uptake_rate 1.0e-09
+PHR_Naphthalene_uptake_rate 1.0e-09
+ORR_Naphthalene_uptake_rate 1.0e-09
+ORT_Naphthalene_uptake_rate 1.0e-09
+WHB_Naphthalene_uptake_rate 0.001
+BRL_Naphthalene_uptake_rate 1.0e-08
+DCR_Naphthalene_uptake_rate 1.0e-08
+BIV_Naphthalene_uptake_rate 3.0e-03
+CEP_Naphthalene_uptake_rate 1.0e-08
+BFF_Naphthalene_uptake_rate 3.0e-03
+SPH_Naphthalene_uptake_rate 1.0e-08
+BG_Naphthalene_uptake_rate 1.0e-08
+BMD_Naphthalene_uptake_rate 1.0e-08
+PWN_Naphthalene_uptake_rate 1.0e-08
+BD_Naphthalene_uptake_rate 1.0e-08
+BC_Naphthalene_uptake_rate 1.0e-08
+MA_Naphthalene_uptake_rate 3.0e-03
+SG_Naphthalene_uptake_rate 3.0e-03
+ZG_Naphthalene_uptake_rate 1.0e-08
+PL_Naphthalene_uptake_rate 3.0e-03 #0.001
+PS_Naphthalene_uptake_rate 3.0e-03
+ZL_Naphthalene_uptake_rate 1.0e-08
+ZM_Naphthalene_uptake_rate 1.0e-08
+ZS_Naphthalene_uptake_rate 1.0e-08
+PB_Naphthalene_uptake_rate 1.0e-08
+BB_Naphthalene_uptake_rate 1.0e-08
+BO_Naphthalene_uptake_rate 1.0e-08
+
+## Species-specific decay half life (in seconds)
+## Used if flag_contam_halflife_spbased is set to 1
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_decay_half_life 345600
+FPS_Naphthalene_decay_half_life 345600
+FSA_Naphthalene_decay_half_life 345600
+FCH_Naphthalene_decay_half_life 345600
+FCO_Naphthalene_decay_half_life 345600
+FSS_Naphthalene_decay_half_life 345600
+FPI_Naphthalene_decay_half_life 345600
+FCU_Naphthalene_decay_half_life 345600
+FSO_Naphthalene_decay_half_life 345600
+HCH_Naphthalene_decay_half_life 345600
+HCO_Naphthalene_decay_half_life 345600
+HSS_Naphthalene_decay_half_life 345600
+FHK_Naphthalene_decay_half_life 345600
+FPO_Naphthalene_decay_half_life 345600
+FLC_Naphthalene_decay_half_life 345600
+FBP_Naphthalene_decay_half_life 345600
+FDS_Naphthalene_decay_half_life 345600
+FDL_Naphthalene_decay_half_life 345600
+FRO_Naphthalene_decay_half_life 345600
+FFS_Naphthalene_decay_half_life 345600
+FFL_Naphthalene_decay_half_life 345600
+SHD_Naphthalene_decay_half_life 345600
+SHS_Naphthalene_decay_half_life 345600
+SRA_Naphthalene_decay_half_life 345600
+SSK_Naphthalene_decay_half_life 345600
+SB_Naphthalene_decay_half_life 345600
+SP_Naphthalene_decay_half_life 345600
+CSL_Naphthalene_decay_half_life 345600
+HSL_Naphthalene_decay_half_life 345600
+PHR_Naphthalene_decay_half_life 345600
+ORR_Naphthalene_decay_half_life 345600
+ORT_Naphthalene_decay_half_life 345600
+WHB_Naphthalene_decay_half_life 345600
+BRL_Naphthalene_decay_half_life 345600
+DCR_Naphthalene_decay_half_life 345600
+BIV_Naphthalene_decay_half_life 345600
+CEP_Naphthalene_decay_half_life 345600
+BFF_Naphthalene_decay_half_life 345600
+SPH_Naphthalene_decay_half_life 345600
+BG_Naphthalene_decay_half_life 345600
+BMD_Naphthalene_decay_half_life 345600
+PWN_Naphthalene_decay_half_life 345600
+BD_Naphthalene_decay_half_life 345600
+BC_Naphthalene_decay_half_life 345600
+MA_Naphthalene_decay_half_life 345600
+SG_Naphthalene_decay_half_life 345600
+ZG_Naphthalene_decay_half_life 345600
+PL_Naphthalene_decay_half_life 345600
+PS_Naphthalene_decay_half_life 345600
+ZL_Naphthalene_decay_half_life 345600
+ZM_Naphthalene_decay_half_life 345600
+ZS_Naphthalene_decay_half_life 345600
+PB_Naphthalene_decay_half_life 345600
+BB_Naphthalene_decay_half_life 345600
+BO_Naphthalene_decay_half_life 345600
+
+## Instant dose contact mortality rate
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_InstantDoseMortality 0.01
+FPS_Naphthalene_InstantDoseMortality 0.01
+FSA_Naphthalene_InstantDoseMortality 0.01
+FCH_Naphthalene_InstantDoseMortality 0.01
+FCO_Naphthalene_InstantDoseMortality 0.01
+FSS_Naphthalene_InstantDoseMortality 0.01
+FPI_Naphthalene_InstantDoseMortality 0.01
+FCU_Naphthalene_InstantDoseMortality 0.01
+FSO_Naphthalene_InstantDoseMortality 0.01
+HCH_Naphthalene_InstantDoseMortality 0.01
+HCO_Naphthalene_InstantDoseMortality 0.01
+HSS_Naphthalene_InstantDoseMortality 0.01
+FHK_Naphthalene_InstantDoseMortality 0.01
+FPO_Naphthalene_InstantDoseMortality 0.01
+FLC_Naphthalene_InstantDoseMortality 0.01
+FBP_Naphthalene_InstantDoseMortality 0.01
+FDS_Naphthalene_InstantDoseMortality 0.01
+FDL_Naphthalene_InstantDoseMortality 0.01
+FRO_Naphthalene_InstantDoseMortality 0.01
+FFS_Naphthalene_InstantDoseMortality 0.01
+FFL_Naphthalene_InstantDoseMortality 0.01
+SHD_Naphthalene_InstantDoseMortality 0.01
+SHS_Naphthalene_InstantDoseMortality 0.01
+SRA_Naphthalene_InstantDoseMortality 0.01
+SSK_Naphthalene_InstantDoseMortality 0.01
+SB_Naphthalene_InstantDoseMortality 0.01
+SP_Naphthalene_InstantDoseMortality 0.01
+CSL_Naphthalene_InstantDoseMortality 0.01
+HSL_Naphthalene_InstantDoseMortality 0.01
+PHR_Naphthalene_InstantDoseMortality 0.01
+ORR_Naphthalene_InstantDoseMortality 0.01
+ORT_Naphthalene_InstantDoseMortality 0.01
+WHB_Naphthalene_InstantDoseMortality 0.01
+BRL_Naphthalene_InstantDoseMortality 0.01
+DCR_Naphthalene_InstantDoseMortality 0.01
+BIV_Naphthalene_InstantDoseMortality 0.01
+CEP_Naphthalene_InstantDoseMortality 0.01
+BFF_Naphthalene_InstantDoseMortality 0.01
+SPH_Naphthalene_InstantDoseMortality 0.01
+BG_Naphthalene_InstantDoseMortality 0.01
+BMD_Naphthalene_InstantDoseMortality 0.01
+PWN_Naphthalene_InstantDoseMortality 0.01
+BD_Naphthalene_InstantDoseMortality 0.01
+BC_Naphthalene_InstantDoseMortality 0.01
+MA_Naphthalene_InstantDoseMortality 0.01
+SG_Naphthalene_InstantDoseMortality 0.01
+ZG_Naphthalene_InstantDoseMortality 0.01
+PL_Naphthalene_InstantDoseMortality 0.01
+PS_Naphthalene_InstantDoseMortality 0.01
+ZL_Naphthalene_InstantDoseMortality 0.01
+ZM_Naphthalene_InstantDoseMortality 0.01
+ZS_Naphthalene_InstantDoseMortality 0.01
+PB_Naphthalene_InstantDoseMortality 0.01
+BB_Naphthalene_InstantDoseMortality 0.01
+BO_Naphthalene_InstantDoseMortality 0.01
+
+## Time Mortality L50 - The number of seconds that it takes to kill 50% of the population.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_TimeToLD50 345600
+FPS_Naphthalene_TimeToLD50 345600
+FSA_Naphthalene_TimeToLD50 345600
+FCH_Naphthalene_TimeToLD50 345600
+FCO_Naphthalene_TimeToLD50 345600
+FSS_Naphthalene_TimeToLD50 345600
+FPI_Naphthalene_TimeToLD50 345600
+FCU_Naphthalene_TimeToLD50 345600
+FSO_Naphthalene_TimeToLD50 345600
+HCH_Naphthalene_TimeToLD50 345600
+HCO_Naphthalene_TimeToLD50 345600
+HSS_Naphthalene_TimeToLD50 345600
+FHK_Naphthalene_TimeToLD50 345600
+FPO_Naphthalene_TimeToLD50 345600
+FLC_Naphthalene_TimeToLD50 345600
+FBP_Naphthalene_TimeToLD50 345600
+FDS_Naphthalene_TimeToLD50 345600
+FDL_Naphthalene_TimeToLD50 345600
+FRO_Naphthalene_TimeToLD50 345600
+FFS_Naphthalene_TimeToLD50 345600
+FFL_Naphthalene_TimeToLD50 345600
+SHD_Naphthalene_TimeToLD50 345600
+SHS_Naphthalene_TimeToLD50 345600
+SRA_Naphthalene_TimeToLD50 345600
+SSK_Naphthalene_TimeToLD50 345600
+SB_Naphthalene_TimeToLD50 345600
+SP_Naphthalene_TimeToLD50 345600
+CSL_Naphthalene_TimeToLD50 345600
+HSL_Naphthalene_TimeToLD50 345600
+PHR_Naphthalene_TimeToLD50 345600
+ORR_Naphthalene_TimeToLD50 345600
+ORT_Naphthalene_TimeToLD50 345600
+WHB_Naphthalene_TimeToLD50 345600
+BRL_Naphthalene_TimeToLD50 345600
+DCR_Naphthalene_TimeToLD50 345600
+BIV_Naphthalene_TimeToLD50 345600
+CEP_Naphthalene_TimeToLD50 345600
+BFF_Naphthalene_TimeToLD50 345600
+SPH_Naphthalene_TimeToLD50 345600
+BG_Naphthalene_TimeToLD50 345600
+BMD_Naphthalene_TimeToLD50 345600
+PWN_Naphthalene_TimeToLD50 345600
+BD_Naphthalene_TimeToLD50 345600
+BC_Naphthalene_TimeToLD50 345600
+MA_Naphthalene_TimeToLD50 345600
+SG_Naphthalene_TimeToLD50 345600
+ZG_Naphthalene_TimeToLD50 345600
+PL_Naphthalene_TimeToLD50 345600
+PS_Naphthalene_TimeToLD50 345600
+ZL_Naphthalene_TimeToLD50 345600
+ZM_Naphthalene_TimeToLD50 345600
+ZS_Naphthalene_TimeToLD50 345600
+PB_Naphthalene_TimeToLD50 345600
+BB_Naphthalene_TimeToLD50 345600
+BO_Naphthalene_TimeToLD50 345600
+
+## Concentration (mg/m3) that will kill 50% of the population after TimeToLD50 seconds
+## Really LC50 not LD50
+## units as defined in run.prm 
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_LD50 1375
+FPS_Naphthalene_LD50 1375
+FSA_Naphthalene_LD50 1375
+FCH_Naphthalene_LD50 1375
+FCO_Naphthalene_LD50 1375
+FSS_Naphthalene_LD50 1375
+FPI_Naphthalene_LD50 1375
+FCU_Naphthalene_LD50 1375
+FSO_Naphthalene_LD50 1375
+HCH_Naphthalene_LD50 1400
+HCO_Naphthalene_LD50 1400
+HSS_Naphthalene_LD50 1400
+FHK_Naphthalene_LD50 1375
+FPO_Naphthalene_LD50 1375
+FLC_Naphthalene_LD50 1375
+FBP_Naphthalene_LD50 1375
+FDS_Naphthalene_LD50 1375
+FDL_Naphthalene_LD50 1375
+FRO_Naphthalene_LD50 1375
+FFS_Naphthalene_LD50 1375
+FFL_Naphthalene_LD50 1375
+SHD_Naphthalene_LD50 1400
+SHS_Naphthalene_LD50 1400
+SRA_Naphthalene_LD50 1400
+SSK_Naphthalene_LD50 1400
+SB_Naphthalene_LD50 1400
+SP_Naphthalene_LD50 1400
+CSL_Naphthalene_LD50 1400
+HSL_Naphthalene_LD50 1400
+PHR_Naphthalene_LD50 1400
+ORR_Naphthalene_LD50 1400
+ORT_Naphthalene_LD50 1400
+WHB_Naphthalene_LD50 1375
+BRL_Naphthalene_LD50 1250
+DCR_Naphthalene_LD50 1250
+BIV_Naphthalene_LD50 18750
+CEP_Naphthalene_LD50 1400
+BFF_Naphthalene_LD50 1400
+SPH_Naphthalene_LD50 1400
+BG_Naphthalene_LD50 1400
+BMD_Naphthalene_LD50 1400
+PWN_Naphthalene_LD50 750
+BD_Naphthalene_LD50 1400
+BC_Naphthalene_LD50 1400
+MA_Naphthalene_LD50 1400
+SG_Naphthalene_LD50 1400
+ZG_Naphthalene_LD50 1250 #updated from Lovindeer et al. 2023
+PL_Naphthalene_LD50 1250
+PS_Naphthalene_LD50 1250
+ZL_Naphthalene_LD50 1250
+ZM_Naphthalene_LD50 1250
+ZS_Naphthalene_LD50 1250
+PB_Naphthalene_LD50 1250
+BB_Naphthalene_LD50 1250
+BO_Naphthalene_LD50 1250
+
+# The concentration that will kill 100% of the population.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_LD100 2800
+FPS_Naphthalene_LD100 2800
+FSA_Naphthalene_LD100 2800
+FCH_Naphthalene_LD100 2800
+FCO_Naphthalene_LD100 2800
+FSS_Naphthalene_LD100 2800
+FPI_Naphthalene_LD100 2800
+FCU_Naphthalene_LD100 2800
+FSO_Naphthalene_LD100 2800
+HCH_Naphthalene_LD100 2800
+HCO_Naphthalene_LD100 2800
+HSS_Naphthalene_LD100 2800
+FHK_Naphthalene_LD100 2800
+FPO_Naphthalene_LD100 2800
+FLC_Naphthalene_LD100 2800
+FBP_Naphthalene_LD100 2800
+FDS_Naphthalene_LD100 2800
+FDL_Naphthalene_LD100 2800
+FRO_Naphthalene_LD100 2800
+FFS_Naphthalene_LD100 2800
+FFL_Naphthalene_LD100 2800
+SHD_Naphthalene_LD100 2800
+SHS_Naphthalene_LD100 2800
+SRA_Naphthalene_LD100 2800
+SSK_Naphthalene_LD100 2800
+SB_Naphthalene_LD100 2800
+SP_Naphthalene_LD100 2800
+CSL_Naphthalene_LD100 2800
+HSL_Naphthalene_LD100 2800
+PHR_Naphthalene_LD100 2800
+ORR_Naphthalene_LD100 2800
+ORT_Naphthalene_LD100 2800
+WHB_Naphthalene_LD100 2800
+BRL_Naphthalene_LD100 2800
+DCR_Naphthalene_LD100 2800
+BIV_Naphthalene_LD100 2800
+CEP_Naphthalene_LD100 2800
+BFF_Naphthalene_LD100 2800
+SPH_Naphthalene_LD100 2800
+BG_Naphthalene_LD100 2800
+BMD_Naphthalene_LD100 2800
+PWN_Naphthalene_LD100 2800
+BD_Naphthalene_LD100 2800
+BC_Naphthalene_LD100 2800
+MA_Naphthalene_LD100 2800
+SG_Naphthalene_LD100 2800
+ZG_Naphthalene_LD100 2800
+PL_Naphthalene_LD100 2800
+PS_Naphthalene_LD100 2800
+ZL_Naphthalene_LD100 2800
+ZM_Naphthalene_LD100 2800
+ZS_Naphthalene_LD100 2800
+PB_Naphthalene_LD100 2800
+BB_Naphthalene_LD100 2800
+BO_Naphthalene_LD100 2800
+
+# Chronic effects - The concentration where chronic effects persist.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ##
+FHE_Naphthalene_LDChronic 12
+FPS_Naphthalene_LDChronic 20.5
+FSA_Naphthalene_LDChronic 12
+FCH_Naphthalene_LDChronic 12
+FCO_Naphthalene_LDChronic 1
+FSS_Naphthalene_LDChronic 50
+FPI_Naphthalene_LDChronic 12
+FCU_Naphthalene_LDChronic 12
+FSO_Naphthalene_LDChronic 1
+HCH_Naphthalene_LDChronic 750
+HCO_Naphthalene_LDChronic 750
+HSS_Naphthalene_LDChronic 750
+FHK_Naphthalene_LDChronic 12
+FPO_Naphthalene_LDChronic 12
+FLC_Naphthalene_LDChronic 12
+FBP_Naphthalene_LDChronic 196
+FDS_Naphthalene_LDChronic 196
+FDL_Naphthalene_LDChronic 196
+FRO_Naphthalene_LDChronic 196
+FFS_Naphthalene_LDChronic 196
+FFL_Naphthalene_LDChronic 196
+SHD_Naphthalene_LDChronic 750
+SHS_Naphthalene_LDChronic 750
+SRA_Naphthalene_LDChronic 750
+SSK_Naphthalene_LDChronic 750
+SB_Naphthalene_LDChronic 750
+SP_Naphthalene_LDChronic 750
+CSL_Naphthalene_LDChronic 750
+HSL_Naphthalene_LDChronic 750
+PHR_Naphthalene_LDChronic 750
+ORR_Naphthalene_LDChronic 750
+ORT_Naphthalene_LDChronic 750
+WHB_Naphthalene_LDChronic 12
+BRL_Naphthalene_LDChronic 27.91
+DCR_Naphthalene_LDChronic 27.91
+BIV_Naphthalene_LDChronic 23.53
+CEP_Naphthalene_LDChronic 750
+BFF_Naphthalene_LDChronic 750
+SPH_Naphthalene_LDChronic 1
+BG_Naphthalene_LDChronic 80
+BMD_Naphthalene_LDChronic 750
+PWN_Naphthalene_LDChronic 750
+BD_Naphthalene_LDChronic 750
+BC_Naphthalene_LDChronic 750
+MA_Naphthalene_LDChronic 312
+SG_Naphthalene_LDChronic 312
+ZG_Naphthalene_LDChronic 6.33
+PL_Naphthalene_LDChronic 170
+PS_Naphthalene_LDChronic 170
+ZL_Naphthalene_LDChronic 6.33
+ZM_Naphthalene_LDChronic 6.33
+ZS_Naphthalene_LDChronic 6.33
+PB_Naphthalene_LDChronic 750
+BB_Naphthalene_LDChronic 750
+BO_Naphthalene_LDChronic 750
+
+# Slope of the internal LDC relationship
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_LDslope 0.35
+FPS_Naphthalene_LDslope 0.35
+FSA_Naphthalene_LDslope 0.35
+FCH_Naphthalene_LDslope 0.35
+FCO_Naphthalene_LDslope 0.35
+FSS_Naphthalene_LDslope 0.35
+FPI_Naphthalene_LDslope 0.35
+FCU_Naphthalene_LDslope 0.35
+FSO_Naphthalene_LDslope 0.35
+HCH_Naphthalene_LDslope 0.35
+HCO_Naphthalene_LDslope 0.35
+HSS_Naphthalene_LDslope 0.35
+FHK_Naphthalene_LDslope 0.35
+FPO_Naphthalene_LDslope 0.35
+FLC_Naphthalene_LDslope 0.35
+FBP_Naphthalene_LDslope 0.35
+FDS_Naphthalene_LDslope 0.35
+FDL_Naphthalene_LDslope 0.35
+FRO_Naphthalene_LDslope 0.35
+FFS_Naphthalene_LDslope 0.35
+FFL_Naphthalene_LDslope 0.35
+SHD_Naphthalene_LDslope 0.5
+SHS_Naphthalene_LDslope 0.5
+SRA_Naphthalene_LDslope 0.5
+SSK_Naphthalene_LDslope 0.5
+SB_Naphthalene_LDslope 0.5
+SP_Naphthalene_LDslope 0.5
+CSL_Naphthalene_LDslope 0.5
+HSL_Naphthalene_LDslope 0.5
+PHR_Naphthalene_LDslope 0.5
+ORR_Naphthalene_LDslope 0.5
+ORT_Naphthalene_LDslope 0.5
+WHB_Naphthalene_LDslope 0.35
+BRL_Naphthalene_LDslope 1.2
+DCR_Naphthalene_LDslope 1.2
+BIV_Naphthalene_LDslope 1.2
+CEP_Naphthalene_LDslope 1.2
+BFF_Naphthalene_LDslope 1.2
+SPH_Naphthalene_LDslope 1.2
+BG_Naphthalene_LDslope 1.2
+BMD_Naphthalene_LDslope 1.2
+PWN_Naphthalene_LDslope 1.2
+BD_Naphthalene_LDslope 1.2
+BC_Naphthalene_LDslope 0.55
+MA_Naphthalene_LDslope 0.55
+SG_Naphthalene_LDslope 0.55
+ZG_Naphthalene_LDslope 0.55
+PL_Naphthalene_LDslope 0.55
+PS_Naphthalene_LDslope 0.55
+ZL_Naphthalene_LDslope 0.55
+ZM_Naphthalene_LDslope 0.55
+ZS_Naphthalene_LDslope 0.55
+PB_Naphthalene_LDslope 0.55
+BB_Naphthalene_LDslope 0.55
+BO_Naphthalene_LDslope 0.55
+
+# Avoidance behaviour - The concentration where avoidance behaviour is triggered.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ##
+FHE_Naphthalene_avoid 1000000
+FPS_Naphthalene_avoid 1000000
+FSA_Naphthalene_avoid 1000000
+FCH_Naphthalene_avoid 1000000
+FCO_Naphthalene_avoid 1000000
+FSS_Naphthalene_avoid 1000000
+FPI_Naphthalene_avoid 1000000
+FCU_Naphthalene_avoid 1000000
+FSO_Naphthalene_avoid 1000000
+HCH_Naphthalene_avoid 1000000
+HCO_Naphthalene_avoid 1000000
+HSS_Naphthalene_avoid 1000000
+FHK_Naphthalene_avoid 1000000
+FPO_Naphthalene_avoid 1000000
+FLC_Naphthalene_avoid 1000000
+FBP_Naphthalene_avoid 1000000
+FDS_Naphthalene_avoid 1000000
+FDL_Naphthalene_avoid 1000000
+FRO_Naphthalene_avoid 1000000
+FFS_Naphthalene_avoid 1000000
+FFL_Naphthalene_avoid 1000000
+SHD_Naphthalene_avoid 1000000
+SHS_Naphthalene_avoid 1000000
+SRA_Naphthalene_avoid 1000000
+SSK_Naphthalene_avoid 1000000
+SB_Naphthalene_avoid 1000000
+SP_Naphthalene_avoid 1000000
+CSL_Naphthalene_avoid 1000000
+HSL_Naphthalene_avoid 1000000
+PHR_Naphthalene_avoid 1000000
+ORR_Naphthalene_avoid 1000000
+ORT_Naphthalene_avoid 1000000
+WHB_Naphthalene_avoid 1000000
+BRL_Naphthalene_avoid 1000000
+DCR_Naphthalene_avoid 1000000
+BIV_Naphthalene_avoid 1000000
+CEP_Naphthalene_avoid 1000000
+BFF_Naphthalene_avoid 1000000
+SPH_Naphthalene_avoid 1000000
+BG_Naphthalene_avoid 1000000
+BMD_Naphthalene_avoid 1000000
+PWN_Naphthalene_avoid 1000000
+BD_Naphthalene_avoid 1000000
+BC_Naphthalene_avoid 1000000
+MA_Naphthalene_avoid 1000000
+SG_Naphthalene_avoid 1000000
+ZG_Naphthalene_avoid 1000000
+PL_Naphthalene_avoid 1000000
+PS_Naphthalene_avoid 1000000
+ZL_Naphthalene_avoid 1000000
+ZM_Naphthalene_avoid 1000000
+ZS_Naphthalene_avoid 1000000
+PB_Naphthalene_avoid 1000000
+BB_Naphthalene_avoid 1000000
+BO_Naphthalene_avoid 1000000
+
+## Constant in avoidance behaviour relationship
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_K_avoid 2.0
+FPS_Naphthalene_K_avoid 2.0
+FSA_Naphthalene_K_avoid 2.0
+FCH_Naphthalene_K_avoid 2.0
+FCO_Naphthalene_K_avoid 2.0
+FSS_Naphthalene_K_avoid 2.0
+FPI_Naphthalene_K_avoid 2.0
+FCU_Naphthalene_K_avoid 2.0
+FSO_Naphthalene_K_avoid 2.0
+HCH_Naphthalene_K_avoid 2.0
+HCO_Naphthalene_K_avoid 2.0
+HSS_Naphthalene_K_avoid 2.0
+FHK_Naphthalene_K_avoid 2.0
+FPO_Naphthalene_K_avoid 2.0
+FLC_Naphthalene_K_avoid 2.0
+FBP_Naphthalene_K_avoid 2.0
+FDS_Naphthalene_K_avoid 2.0
+FDL_Naphthalene_K_avoid 2.0
+FRO_Naphthalene_K_avoid 2.0
+FFS_Naphthalene_K_avoid 2.0
+FFL_Naphthalene_K_avoid 2.0
+SHD_Naphthalene_K_avoid 2.0
+SHS_Naphthalene_K_avoid 2.0
+SRA_Naphthalene_K_avoid 2.0
+SSK_Naphthalene_K_avoid 2.0
+SB_Naphthalene_K_avoid 2.0
+SP_Naphthalene_K_avoid 2.0
+CSL_Naphthalene_K_avoid 2.0
+HSL_Naphthalene_K_avoid 2.0
+PHR_Naphthalene_K_avoid 2.0
+ORR_Naphthalene_K_avoid 2.0
+ORT_Naphthalene_K_avoid 2.0
+WHB_Naphthalene_K_avoid 2.0
+BRL_Naphthalene_K_avoid 2.0
+DCR_Naphthalene_K_avoid 2.0
+BIV_Naphthalene_K_avoid 2.0
+CEP_Naphthalene_K_avoid 2.0
+BFF_Naphthalene_K_avoid 2.0
+SPH_Naphthalene_K_avoid 2.0
+BG_Naphthalene_K_avoid 2.0
+BMD_Naphthalene_K_avoid 2.0
+PWN_Naphthalene_K_avoid 2.0
+BD_Naphthalene_K_avoid 2.0
+BC_Naphthalene_K_avoid 2.0
+MA_Naphthalene_K_avoid 2.0
+SG_Naphthalene_K_avoid 2.0
+ZG_Naphthalene_K_avoid 2.0
+PL_Naphthalene_K_avoid 2.0
+PS_Naphthalene_K_avoid 2.0
+ZL_Naphthalene_K_avoid 2.0
+ZM_Naphthalene_K_avoid 2.0
+ZS_Naphthalene_K_avoid 2.0
+PB_Naphthalene_K_avoid 2.0
+BB_Naphthalene_K_avoid 2.0
+BO_Naphthalene_K_avoid 2.0
+
+## Piecewise interpolation of mortality effects across multiple contaminants
+## First constant used in piecewise interpolation of mortality effects across multiple contaminants
+## Not used in this case (for InVitro based case only)
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_Cx 2.0
+FPS_Naphthalene_Cx 2.0
+FSA_Naphthalene_Cx 2.0
+FCH_Naphthalene_Cx 2.0
+FCO_Naphthalene_Cx 2.0
+FSS_Naphthalene_Cx 2.0
+FPI_Naphthalene_Cx 2.0
+FCU_Naphthalene_Cx 2.0
+FSO_Naphthalene_Cx 2.0
+HCH_Naphthalene_Cx 2.0
+HCO_Naphthalene_Cx 2.0
+HSS_Naphthalene_Cx 2.0
+FHK_Naphthalene_Cx 2.0
+FPO_Naphthalene_Cx 2.0
+FLC_Naphthalene_Cx 2.0
+FBP_Naphthalene_Cx 2.0
+FDS_Naphthalene_Cx 2.0
+FDL_Naphthalene_Cx 2.0
+FRO_Naphthalene_Cx 2.0
+FFS_Naphthalene_Cx 2.0
+FFL_Naphthalene_Cx 2.0
+SHD_Naphthalene_Cx 2.0
+SHS_Naphthalene_Cx 2.0
+SRA_Naphthalene_Cx 2.0
+SSK_Naphthalene_Cx 2.0
+SB_Naphthalene_Cx 2.0
+SP_Naphthalene_Cx 2.0
+CSL_Naphthalene_Cx 2.0
+HSL_Naphthalene_Cx 2.0
+PHR_Naphthalene_Cx 2.0
+ORR_Naphthalene_Cx 2.0
+ORT_Naphthalene_Cx 2.0
+WHB_Naphthalene_Cx 2.0
+BRL_Naphthalene_Cx 2.0
+DCR_Naphthalene_Cx 2.0
+BIV_Naphthalene_Cx 2.0
+CEP_Naphthalene_Cx 2.0
+BFF_Naphthalene_Cx 2.0
+SPH_Naphthalene_Cx 2.0
+BG_Naphthalene_Cx 2.0
+BMD_Naphthalene_Cx 2.0
+PWN_Naphthalene_Cx 2.0
+BD_Naphthalene_Cx 2.0
+BC_Naphthalene_Cx 2.0
+MA_Naphthalene_Cx 2.0
+SG_Naphthalene_Cx 2.0
+ZG_Naphthalene_Cx 2.0
+PL_Naphthalene_Cx 2.0
+PS_Naphthalene_Cx 2.0
+ZL_Naphthalene_Cx 2.0
+ZM_Naphthalene_Cx 2.0
+ZS_Naphthalene_Cx 2.0
+PB_Naphthalene_Cx 2.0
+BB_Naphthalene_Cx 2.0
+BO_Naphthalene_Cx 2.0
+
+# Second constant used in piecewise interpolation of mortality effects across multiple contaminants
+# Not used in this case (for InVitro based case only)
+FHE_Naphthalene_Cy 2.0
+FPS_Naphthalene_Cy 2.0
+FSA_Naphthalene_Cy 2.0
+FCH_Naphthalene_Cy 2.0
+FCO_Naphthalene_Cy 2.0
+FSS_Naphthalene_Cy 2.0
+FPI_Naphthalene_Cy 2.0
+FCU_Naphthalene_Cy 2.0
+FSO_Naphthalene_Cy 2.0
+HCH_Naphthalene_Cy 2.0
+HCO_Naphthalene_Cy 2.0
+HSS_Naphthalene_Cy 2.0
+FHK_Naphthalene_Cy 2.0
+FPO_Naphthalene_Cy 2.0
+FLC_Naphthalene_Cy 2.0
+FBP_Naphthalene_Cy 2.0
+FDS_Naphthalene_Cy 2.0
+FDL_Naphthalene_Cy 2.0
+FRO_Naphthalene_Cy 2.0
+FFS_Naphthalene_Cy 2.0
+FFL_Naphthalene_Cy 2.0
+SHD_Naphthalene_Cy 2.0
+SHS_Naphthalene_Cy 2.0
+SRA_Naphthalene_Cy 2.0
+SSK_Naphthalene_Cy 2.0
+SB_Naphthalene_Cy 2.0
+SP_Naphthalene_Cy 2.0
+CSL_Naphthalene_Cy 2.0
+HSL_Naphthalene_Cy 2.0
+PHR_Naphthalene_Cy 2.0
+ORR_Naphthalene_Cy 2.0
+ORT_Naphthalene_Cy 2.0
+WHB_Naphthalene_Cy 2.0
+BRL_Naphthalene_Cy 2.0
+DCR_Naphthalene_Cy 2.0
+BIV_Naphthalene_Cy 2.0
+CEP_Naphthalene_Cy 2.0
+BFF_Naphthalene_Cy 2.0
+SPH_Naphthalene_Cy 2.0
+BG_Naphthalene_Cy 2.0
+BMD_Naphthalene_Cy 2.0
+PWN_Naphthalene_Cy 2.0
+BD_Naphthalene_Cy 2.0
+BC_Naphthalene_Cy 2.0
+MA_Naphthalene_Cy 2.0
+SG_Naphthalene_Cy 2.0
+ZG_Naphthalene_Cy 2.0
+PL_Naphthalene_Cy 2.0
+PS_Naphthalene_Cy 2.0
+ZL_Naphthalene_Cy 2.0
+ZM_Naphthalene_Cy 2.0
+ZS_Naphthalene_Cy 2.0
+PB_Naphthalene_Cy 2.0
+BB_Naphthalene_Cy 2.0
+BO_Naphthalene_Cy 2.0
+
+# The minimum of the growth effects curve if the logistic effects curve is used.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_spL 0.2
+FPS_Naphthalene_spL 0.2
+FSA_Naphthalene_spL 0.2
+FCH_Naphthalene_spL 0.2
+FCO_Naphthalene_spL 0.2
+FSS_Naphthalene_spL 0.2
+FPI_Naphthalene_spL 0.2
+FCU_Naphthalene_spL 0.2
+FSO_Naphthalene_spL 0.2
+HCH_Naphthalene_spL 0.2
+HCO_Naphthalene_spL 0.2
+HSS_Naphthalene_spL 0.2
+FHK_Naphthalene_spL 0.2
+FPO_Naphthalene_spL 0.2
+FLC_Naphthalene_spL 0.2
+FBP_Naphthalene_spL 0.2
+FDS_Naphthalene_spL 0.2
+FDL_Naphthalene_spL 0.2
+FRO_Naphthalene_spL 0.2
+FFS_Naphthalene_spL 0.2
+FFL_Naphthalene_spL 0.2
+SHD_Naphthalene_spL 0.2
+SHS_Naphthalene_spL 0.2
+SRA_Naphthalene_spL 0.2
+SSK_Naphthalene_spL 0.2
+SB_Naphthalene_spL 0.2
+SP_Naphthalene_spL 0.2
+CSL_Naphthalene_spL 0.2
+HSL_Naphthalene_spL 0.2
+PHR_Naphthalene_spL 0.2
+ORR_Naphthalene_spL 0.2
+ORT_Naphthalene_spL 0.2
+WHB_Naphthalene_spL 0.2
+BRL_Naphthalene_spL 0.2
+DCR_Naphthalene_spL 0.2
+BIV_Naphthalene_spL 0.2
+CEP_Naphthalene_spL 0.2
+BFF_Naphthalene_spL 0.2
+SPH_Naphthalene_spL 0.2
+BG_Naphthalene_spL 0.2
+BMD_Naphthalene_spL 0.2
+PWN_Naphthalene_spL 0.2
+BD_Naphthalene_spL 0.2
+BC_Naphthalene_spL 0.2
+MA_Naphthalene_spL 0.2
+SG_Naphthalene_spL 0.2
+ZG_Naphthalene_spL 0.2
+PL_Naphthalene_spL 0.2
+PS_Naphthalene_spL 0.2
+ZL_Naphthalene_spL 0.2
+ZM_Naphthalene_spL 0.2
+ZS_Naphthalene_spL 0.2
+PB_Naphthalene_spL 0.2
+BB_Naphthalene_spL 0.2
+BO_Naphthalene_spL 0.2
+
+# The curve of the growth effects curve if the logistic effects curve is used.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_spA 0.5
+FPS_Naphthalene_spA 0.5
+FSA_Naphthalene_spA 0.5
+FCH_Naphthalene_spA 0.5
+FCO_Naphthalene_spA 0.5
+FSS_Naphthalene_spA 0.5
+FPI_Naphthalene_spA 0.5
+FCU_Naphthalene_spA 0.5
+FSO_Naphthalene_spA 0.5
+HCH_Naphthalene_spA 0.5
+HCO_Naphthalene_spA 0.5
+HSS_Naphthalene_spA 0.5
+FHK_Naphthalene_spA 0.5
+FPO_Naphthalene_spA 0.5
+FLC_Naphthalene_spA 0.5
+FBP_Naphthalene_spA 0.5
+FDS_Naphthalene_spA 0.5
+FDL_Naphthalene_spA 0.5
+FRO_Naphthalene_spA 0.5
+FFS_Naphthalene_spA 0.5
+FFL_Naphthalene_spA 0.5
+SHD_Naphthalene_spA 0.5
+SHS_Naphthalene_spA 0.5
+SRA_Naphthalene_spA 0.5
+SSK_Naphthalene_spA 0.5
+SB_Naphthalene_spA 0.5
+SP_Naphthalene_spA 0.5
+CSL_Naphthalene_spA 0.5
+HSL_Naphthalene_spA 0.5
+PHR_Naphthalene_spA 0.5
+ORR_Naphthalene_spA 0.5
+ORT_Naphthalene_spA 0.5
+WHB_Naphthalene_spA 0.5
+BRL_Naphthalene_spA 0.5
+DCR_Naphthalene_spA 0.5
+BIV_Naphthalene_spA 0.5
+CEP_Naphthalene_spA 0.5
+BFF_Naphthalene_spA 0.5
+SPH_Naphthalene_spA 0.5
+BG_Naphthalene_spA 0.5
+BMD_Naphthalene_spA 0.5
+PWN_Naphthalene_spA 0.5
+BD_Naphthalene_spA 0.5
+BC_Naphthalene_spA 0.5
+MA_Naphthalene_spA 0.5
+SG_Naphthalene_spA 0.5
+ZG_Naphthalene_spA 0.5
+PL_Naphthalene_spA 0.5
+PS_Naphthalene_spA 0.5
+ZL_Naphthalene_spA 0.5
+ZM_Naphthalene_spA 0.5
+ZS_Naphthalene_spA 0.5
+PB_Naphthalene_spA 0.5
+BB_Naphthalene_spA 0.5
+BO_Naphthalene_spA 0.5
+
+# The midpoint of the growth effects curve if the logistic effects curve is used.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_spB 5.0
+FPS_Naphthalene_spB 5.0
+FSA_Naphthalene_spB 5.0
+FCH_Naphthalene_spB 5.0
+FCO_Naphthalene_spB 5.0
+FSS_Naphthalene_spB 5.0
+FPI_Naphthalene_spB 5.0
+FCU_Naphthalene_spB 5.0
+FSO_Naphthalene_spB 5.0
+HCH_Naphthalene_spB 5.0
+HCO_Naphthalene_spB 5.0
+HSS_Naphthalene_spB 5.0
+FHK_Naphthalene_spB 5.0
+FPO_Naphthalene_spB 5.0
+FLC_Naphthalene_spB 5.0
+FBP_Naphthalene_spB 5.0
+FDS_Naphthalene_spB 5.0
+FDL_Naphthalene_spB 5.0
+FRO_Naphthalene_spB 5.0
+FFS_Naphthalene_spB 5.0
+FFL_Naphthalene_spB 5.0
+SHD_Naphthalene_spB 5.0
+SHS_Naphthalene_spB 5.0
+SRA_Naphthalene_spB 5.0
+SSK_Naphthalene_spB 5.0
+SB_Naphthalene_spB 5.0
+SP_Naphthalene_spB 5.0
+CSL_Naphthalene_spB 5.0
+HSL_Naphthalene_spB 5.0
+PHR_Naphthalene_spB 5.0
+ORR_Naphthalene_spB 5.0
+ORT_Naphthalene_spB 5.0
+WHB_Naphthalene_spB 5.0
+BRL_Naphthalene_spB 5.0
+DCR_Naphthalene_spB 5.0
+BIV_Naphthalene_spB 5.0
+CEP_Naphthalene_spB 5.0
+BFF_Naphthalene_spB 5.0
+SPH_Naphthalene_spB 5.0
+BG_Naphthalene_spB 5.0
+BMD_Naphthalene_spB 5.0
+PWN_Naphthalene_spB 5.0
+BD_Naphthalene_spB 5.0
+BC_Naphthalene_spB 5.0
+MA_Naphthalene_spB 5.0
+SG_Naphthalene_spB 5.0
+ZG_Naphthalene_spB 5.0
+PL_Naphthalene_spB 5.0
+PS_Naphthalene_spB 5.0
+ZL_Naphthalene_spB 5.0
+ZM_Naphthalene_spB 5.0
+ZS_Naphthalene_spB 5.0
+PB_Naphthalene_spB 5.0
+BB_Naphthalene_spB 5.0
+BO_Naphthalene_spB 5.0
+
+# The tissue contaminant level at which growth effects manifest if using the InVitro growth effects model
+# Not used in this case (for InVitro based case only)
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_GrowthThresh 0.0
+FPS_Naphthalene_GrowthThresh 0.0
+FSA_Naphthalene_GrowthThresh 0.0
+FCH_Naphthalene_GrowthThresh 0.0
+FCO_Naphthalene_GrowthThresh 0.0
+FSS_Naphthalene_GrowthThresh 0.0
+FPI_Naphthalene_GrowthThresh 0.0
+FCU_Naphthalene_GrowthThresh 0.0
+FSO_Naphthalene_GrowthThresh 0.0
+HCH_Naphthalene_GrowthThresh 0.0
+HCO_Naphthalene_GrowthThresh 0.0
+HSS_Naphthalene_GrowthThresh 0.0
+FHK_Naphthalene_GrowthThresh 0.0
+FPO_Naphthalene_GrowthThresh 0.0
+FLC_Naphthalene_GrowthThresh 0.0
+FBP_Naphthalene_GrowthThresh 0.0
+FDS_Naphthalene_GrowthThresh 0.0
+FDL_Naphthalene_GrowthThresh 0.0
+FRO_Naphthalene_GrowthThresh 0.0
+FFS_Naphthalene_GrowthThresh 0.0
+FFL_Naphthalene_GrowthThresh 0.0
+SHD_Naphthalene_GrowthThresh 0.0
+SHS_Naphthalene_GrowthThresh 0.0
+SRA_Naphthalene_GrowthThresh 0.0
+SSK_Naphthalene_GrowthThresh 0.0
+SB_Naphthalene_GrowthThresh 0.0
+SP_Naphthalene_GrowthThresh 0.0
+CSL_Naphthalene_GrowthThresh 0.0
+HSL_Naphthalene_GrowthThresh 0.0
+PHR_Naphthalene_GrowthThresh 0.0
+ORR_Naphthalene_GrowthThresh 0.0
+ORT_Naphthalene_GrowthThresh 0.0
+WHB_Naphthalene_GrowthThresh 0.0
+BRL_Naphthalene_GrowthThresh 0.0
+DCR_Naphthalene_GrowthThresh 0.0
+BIV_Naphthalene_GrowthThresh 0.0
+CEP_Naphthalene_GrowthThresh 0.0
+BFF_Naphthalene_GrowthThresh 0.0
+SPH_Naphthalene_GrowthThresh 0.0
+BG_Naphthalene_GrowthThresh 0.0
+BMD_Naphthalene_GrowthThresh 0.0
+PWN_Naphthalene_GrowthThresh 0.0
+BD_Naphthalene_GrowthThresh 0.0
+BC_Naphthalene_GrowthThresh 0.0
+MA_Naphthalene_GrowthThresh 0.0
+SG_Naphthalene_GrowthThresh 0.0
+ZG_Naphthalene_GrowthThresh 0.0
+PL_Naphthalene_GrowthThresh 0.0
+PS_Naphthalene_GrowthThresh 0.0
+ZL_Naphthalene_GrowthThresh 0.0
+ZM_Naphthalene_GrowthThresh 0.0
+ZS_Naphthalene_GrowthThresh 0.0
+PB_Naphthalene_GrowthThresh 0.0
+BB_Naphthalene_GrowthThresh 0.0
+BO_Naphthalene_GrowthThresh 0.0
+
+# Exponent used in the InVitro growth effects model for primary producers and microfauna.
+# Not used in this case (for InVitro based case only)
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_EC50 750
+FPS_Naphthalene_EC50 750
+FSA_Naphthalene_EC50 750
+FCH_Naphthalene_EC50 750
+FCO_Naphthalene_EC50 750
+FSS_Naphthalene_EC50 750
+FPI_Naphthalene_EC50 750
+FCU_Naphthalene_EC50 750
+FSO_Naphthalene_EC50 750
+HCH_Naphthalene_EC50 750
+HCO_Naphthalene_EC50 750
+HSS_Naphthalene_EC50 750
+FHK_Naphthalene_EC50 750
+FPO_Naphthalene_EC50 750
+FLC_Naphthalene_EC50 750
+FBP_Naphthalene_EC50 750
+FDS_Naphthalene_EC50 750
+FDL_Naphthalene_EC50 750
+FRO_Naphthalene_EC50 750
+FFS_Naphthalene_EC50 750
+FFL_Naphthalene_EC50 750
+SHD_Naphthalene_EC50 750
+SHS_Naphthalene_EC50 750
+SRA_Naphthalene_EC50 750
+SSK_Naphthalene_EC50 750
+SB_Naphthalene_EC50 750
+SP_Naphthalene_EC50 750
+CSL_Naphthalene_EC50 750
+HSL_Naphthalene_EC50 750
+PHR_Naphthalene_EC50 750
+ORR_Naphthalene_EC50 750
+ORT_Naphthalene_EC50 750
+WHB_Naphthalene_EC50 750
+BRL_Naphthalene_EC50 750
+DCR_Naphthalene_EC50 750
+BIV_Naphthalene_EC50 750
+CEP_Naphthalene_EC50 750
+BFF_Naphthalene_EC50 750
+SPH_Naphthalene_EC50 750
+BG_Naphthalene_EC50 750
+BMD_Naphthalene_EC50 750
+PWN_Naphthalene_EC50 750
+BD_Naphthalene_EC50 750
+BC_Naphthalene_EC50 750
+MA_Naphthalene_EC50 750
+SG_Naphthalene_EC50 750
+ZG_Naphthalene_EC50 750
+PL_Naphthalene_EC50 750
+PS_Naphthalene_EC50 750
+ZL_Naphthalene_EC50 750
+ZM_Naphthalene_EC50 750
+ZS_Naphthalene_EC50 750
+PB_Naphthalene_EC50 750
+BB_Naphthalene_EC50 750
+BO_Naphthalene_EC50 750
+
+# Slope of the InVitro growth effects model for primary producers and microfauna
+# Not used in this case (for InVitro based case only)
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_ECslope 250
+FPS_Naphthalene_ECslope 250
+FSA_Naphthalene_ECslope 250
+FCH_Naphthalene_ECslope 250
+FCO_Naphthalene_ECslope 250
+FSS_Naphthalene_ECslope 250
+FPI_Naphthalene_ECslope 250
+FCU_Naphthalene_ECslope 250
+FSO_Naphthalene_ECslope 250
+HCH_Naphthalene_ECslope 250
+HCO_Naphthalene_ECslope 250
+HSS_Naphthalene_ECslope 250
+FHK_Naphthalene_ECslope 250
+FPO_Naphthalene_ECslope 250
+FLC_Naphthalene_ECslope 250
+FBP_Naphthalene_ECslope 250
+FDS_Naphthalene_ECslope 250
+FDL_Naphthalene_ECslope 250
+FRO_Naphthalene_ECslope 250
+FFS_Naphthalene_ECslope 250
+FFL_Naphthalene_ECslope 250
+SHD_Naphthalene_ECslope 250
+SHS_Naphthalene_ECslope 250
+SRA_Naphthalene_ECslope 250
+SSK_Naphthalene_ECslope 250
+SB_Naphthalene_ECslope 250
+SP_Naphthalene_ECslope 250
+CSL_Naphthalene_ECslope 250
+HSL_Naphthalene_ECslope 250
+PHR_Naphthalene_ECslope 250
+ORR_Naphthalene_ECslope 250
+ORT_Naphthalene_ECslope 250
+WHB_Naphthalene_ECslope 250
+BRL_Naphthalene_ECslope 250
+DCR_Naphthalene_ECslope 250
+BIV_Naphthalene_ECslope 250
+CEP_Naphthalene_ECslope 250
+BFF_Naphthalene_ECslope 250
+SPH_Naphthalene_ECslope 250
+BG_Naphthalene_ECslope 250
+BMD_Naphthalene_ECslope 250
+PWN_Naphthalene_ECslope 250
+BD_Naphthalene_ECslope 250
+BC_Naphthalene_ECslope 250
+MA_Naphthalene_ECslope 250
+SG_Naphthalene_ECslope 250
+ZG_Naphthalene_ECslope 250
+PL_Naphthalene_ECslope 250
+PS_Naphthalene_ECslope 250
+ZL_Naphthalene_ECslope 250
+ZM_Naphthalene_ECslope 250
+ZS_Naphthalene_ECslope 250
+PB_Naphthalene_ECslope 250
+BB_Naphthalene_ECslope 250
+BO_Naphthalene_ECslope 250
+
+# The size of the growth effect (as a scalar) on consumers if using the InVitro growth effects model
+# Not used in this case (for InVitro based case only)
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_GrowthEffect 0.9
+FPS_Naphthalene_GrowthEffect 0.9
+FSA_Naphthalene_GrowthEffect 0.9
+FCH_Naphthalene_GrowthEffect 0.9
+FCO_Naphthalene_GrowthEffect 0.9
+FSS_Naphthalene_GrowthEffect 0.9
+FPI_Naphthalene_GrowthEffect 0.9
+FCU_Naphthalene_GrowthEffect 0.9
+FSO_Naphthalene_GrowthEffect 0.9
+HCH_Naphthalene_GrowthEffect 0.9
+HCO_Naphthalene_GrowthEffect 0.9
+HSS_Naphthalene_GrowthEffect 0.9
+FHK_Naphthalene_GrowthEffect 0.9
+FPO_Naphthalene_GrowthEffect 0.9
+FLC_Naphthalene_GrowthEffect 0.9
+FBP_Naphthalene_GrowthEffect 0.9
+FDS_Naphthalene_GrowthEffect 0.9
+FDL_Naphthalene_GrowthEffect 0.9
+FRO_Naphthalene_GrowthEffect 0.9
+FFS_Naphthalene_GrowthEffect 0.9
+FFL_Naphthalene_GrowthEffect 0.9
+SHD_Naphthalene_GrowthEffect 0.9
+SHS_Naphthalene_GrowthEffect 0.9
+SRA_Naphthalene_GrowthEffect 0.9
+SSK_Naphthalene_GrowthEffect 0.9
+SB_Naphthalene_GrowthEffect 0.9
+SP_Naphthalene_GrowthEffect 0.9
+CSL_Naphthalene_GrowthEffect 0.9
+HSL_Naphthalene_GrowthEffect 0.9
+PHR_Naphthalene_GrowthEffect 0.9
+ORR_Naphthalene_GrowthEffect 0.9
+ORT_Naphthalene_GrowthEffect 0.9
+WHB_Naphthalene_GrowthEffect 0.9
+BRL_Naphthalene_GrowthEffect 0.9
+DCR_Naphthalene_GrowthEffect 0.9
+BIV_Naphthalene_GrowthEffect 0.9
+CEP_Naphthalene_GrowthEffect 0.9
+BFF_Naphthalene_GrowthEffect 0.9
+SPH_Naphthalene_GrowthEffect 0.9
+BG_Naphthalene_GrowthEffect 0.9
+BMD_Naphthalene_GrowthEffect 0.9
+PWN_Naphthalene_GrowthEffect 0.9
+BD_Naphthalene_GrowthEffect 0.9
+BC_Naphthalene_GrowthEffect 0.9
+MA_Naphthalene_GrowthEffect 0.9
+SG_Naphthalene_GrowthEffect 0.9
+ZG_Naphthalene_GrowthEffect 0.9
+PL_Naphthalene_GrowthEffect 0.9
+PS_Naphthalene_GrowthEffect 0.9
+ZL_Naphthalene_GrowthEffect 0.9
+ZM_Naphthalene_GrowthEffect 0.9
+ZS_Naphthalene_GrowthEffect 0.9
+PB_Naphthalene_GrowthEffect 0.9
+BB_Naphthalene_GrowthEffect 0.9
+BO_Naphthalene_GrowthEffect 0.9
+
+## Contaminant effect on movement (as a scalar)
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_MoveEffect 0.1
+FPS_Naphthalene_MoveEffect 0.1
+FSA_Naphthalene_MoveEffect 0.1
+FCH_Naphthalene_MoveEffect 0.1
+FCO_Naphthalene_MoveEffect 0.1
+FSS_Naphthalene_MoveEffect 0.1
+FPI_Naphthalene_MoveEffect 0.1
+FCU_Naphthalene_MoveEffect 0.1
+FSO_Naphthalene_MoveEffect 0.1
+HCH_Naphthalene_MoveEffect 0.1
+HCO_Naphthalene_MoveEffect 0.1
+HSS_Naphthalene_MoveEffect 0.1
+FHK_Naphthalene_MoveEffect 0.3
+FPO_Naphthalene_MoveEffect 0.3
+FLC_Naphthalene_MoveEffect 0.3
+FBP_Naphthalene_MoveEffect 0.3
+FDS_Naphthalene_MoveEffect 0.3
+FDL_Naphthalene_MoveEffect 0.3
+FRO_Naphthalene_MoveEffect 0.3
+FFS_Naphthalene_MoveEffect 0.9
+FFL_Naphthalene_MoveEffect 0.9
+SHD_Naphthalene_MoveEffect 0.9
+SHS_Naphthalene_MoveEffect 0.9
+SRA_Naphthalene_MoveEffect 0.9
+SSK_Naphthalene_MoveEffect 0.9
+SB_Naphthalene_MoveEffect 0.9
+SP_Naphthalene_MoveEffect 0.9
+CSL_Naphthalene_MoveEffect 0.9
+HSL_Naphthalene_MoveEffect 0.9
+PHR_Naphthalene_MoveEffect 0.9
+ORR_Naphthalene_MoveEffect 0.9
+ORT_Naphthalene_MoveEffect 0.9
+WHB_Naphthalene_MoveEffect 0.9
+BRL_Naphthalene_MoveEffect 0.9
+DCR_Naphthalene_MoveEffect 0.9
+BIV_Naphthalene_MoveEffect 0.9
+CEP_Naphthalene_MoveEffect 0.9
+BFF_Naphthalene_MoveEffect 0.9
+SPH_Naphthalene_MoveEffect 0.9
+BG_Naphthalene_MoveEffect 0.9
+BMD_Naphthalene_MoveEffect 0.9
+PWN_Naphthalene_MoveEffect 0.9
+BD_Naphthalene_MoveEffect 0.9
+BC_Naphthalene_MoveEffect 0.9
+MA_Naphthalene_MoveEffect 0.9
+SG_Naphthalene_MoveEffect 0.9
+ZG_Naphthalene_MoveEffect 0.9
+PL_Naphthalene_MoveEffect 0.9
+PS_Naphthalene_MoveEffect 0.9
+ZL_Naphthalene_MoveEffect 0.9
+ZM_Naphthalene_MoveEffect 0.9
+ZS_Naphthalene_MoveEffect 0.9
+PB_Naphthalene_MoveEffect 0.9
+BB_Naphthalene_MoveEffect 0.9
+BO_Naphthalene_MoveEffect 0.9
+
+## Contaminant effect on reproduction (as a scalar)
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_ReprodEffect 0.5
+FPS_Naphthalene_ReprodEffect 0.5
+FSA_Naphthalene_ReprodEffect 0.5
+FCH_Naphthalene_ReprodEffect 0.5
+FCO_Naphthalene_ReprodEffect 0.5
+FSS_Naphthalene_ReprodEffect 0.5
+FPI_Naphthalene_ReprodEffect 0.5
+FCU_Naphthalene_ReprodEffect 0.5
+FSO_Naphthalene_ReprodEffect 0.5
+HCH_Naphthalene_ReprodEffect 0.5
+HCO_Naphthalene_ReprodEffect 0.5
+HSS_Naphthalene_ReprodEffect 0.5
+FHK_Naphthalene_ReprodEffect 0.5
+FPO_Naphthalene_ReprodEffect 0.5
+FLC_Naphthalene_ReprodEffect 0.5
+FBP_Naphthalene_ReprodEffect 0.5
+FDS_Naphthalene_ReprodEffect 0.5
+FDL_Naphthalene_ReprodEffect 0.5
+FRO_Naphthalene_ReprodEffect 0.5
+FFS_Naphthalene_ReprodEffect 0.7
+FFL_Naphthalene_ReprodEffect 0.7
+SHD_Naphthalene_ReprodEffect 0.7
+SHS_Naphthalene_ReprodEffect 0.7
+SRA_Naphthalene_ReprodEffect 0.7
+SSK_Naphthalene_ReprodEffect 0.7
+SB_Naphthalene_ReprodEffect 0.7
+SP_Naphthalene_ReprodEffect 0.7
+CSL_Naphthalene_ReprodEffect 0.7
+HSL_Naphthalene_ReprodEffect 0.7
+PHR_Naphthalene_ReprodEffect 0.7
+ORR_Naphthalene_ReprodEffect 0.7
+ORT_Naphthalene_ReprodEffect 0.7
+WHB_Naphthalene_ReprodEffect 0.5
+BRL_Naphthalene_ReprodEffect 0.7
+DCR_Naphthalene_ReprodEffect 0.7
+BIV_Naphthalene_ReprodEffect 0.7
+CEP_Naphthalene_ReprodEffect 0.7
+BFF_Naphthalene_ReprodEffect 0.7
+SPH_Naphthalene_ReprodEffect 0.7
+BG_Naphthalene_ReprodEffect 0.7
+BMD_Naphthalene_ReprodEffect 0.7
+PWN_Naphthalene_ReprodEffect 0.7
+BD_Naphthalene_ReprodEffect 0.7
+BC_Naphthalene_ReprodEffect 0.7
+MA_Naphthalene_ReprodEffect 0.7
+SG_Naphthalene_ReprodEffect 0.7
+ZG_Naphthalene_ReprodEffect 0.7
+PL_Naphthalene_ReprodEffect 0.7
+PS_Naphthalene_ReprodEffect 0.7
+ZL_Naphthalene_ReprodEffect 0.7
+ZM_Naphthalene_ReprodEffect 0.7
+ZS_Naphthalene_ReprodEffect 0.7
+PB_Naphthalene_ReprodEffect 0.7
+BB_Naphthalene_ReprodEffect 0.7
+BO_Naphthalene_ReprodEffect 0.7
+
+## Contaminant effect on other physiological parameters
+# The scalar used to represent the generic effects of contaminants on other physiological parameters.
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+FHE_Naphthalene_ContamScalar 0.9
+FPS_Naphthalene_ContamScalar 0.9
+FSA_Naphthalene_ContamScalar 0.9
+FCH_Naphthalene_ContamScalar 0.9
+FCO_Naphthalene_ContamScalar 0.9
+FSS_Naphthalene_ContamScalar 0.9
+FPI_Naphthalene_ContamScalar 0.9
+FCU_Naphthalene_ContamScalar 0.9
+FSO_Naphthalene_ContamScalar 0.9
+HCH_Naphthalene_ContamScalar 0.9
+HCO_Naphthalene_ContamScalar 0.9
+HSS_Naphthalene_ContamScalar 0.9
+FHK_Naphthalene_ContamScalar 0.9
+FPO_Naphthalene_ContamScalar 0.9
+FLC_Naphthalene_ContamScalar 0.9
+FBP_Naphthalene_ContamScalar 0.9
+FDS_Naphthalene_ContamScalar 0.9
+FDL_Naphthalene_ContamScalar 0.9
+FRO_Naphthalene_ContamScalar 0.9
+FFS_Naphthalene_ContamScalar 0.95
+FFL_Naphthalene_ContamScalar 0.95
+SHD_Naphthalene_ContamScalar 0.95
+SHS_Naphthalene_ContamScalar 0.95
+SRA_Naphthalene_ContamScalar 0.95
+SSK_Naphthalene_ContamScalar 0.95
+SB_Naphthalene_ContamScalar 0.95
+SP_Naphthalene_ContamScalar 0.95
+CSL_Naphthalene_ContamScalar 0.95
+HSL_Naphthalene_ContamScalar 0.95
+PHR_Naphthalene_ContamScalar 0.95
+ORR_Naphthalene_ContamScalar 0.95
+ORT_Naphthalene_ContamScalar 0.95
+WHB_Naphthalene_ContamScalar 0.95
+BRL_Naphthalene_ContamScalar 0.95
+DCR_Naphthalene_ContamScalar 0.95
+BIV_Naphthalene_ContamScalar 0.95
+CEP_Naphthalene_ContamScalar 0.95
+BFF_Naphthalene_ContamScalar 0.95
+SPH_Naphthalene_ContamScalar 0.95
+BG_Naphthalene_ContamScalar 0.95
+BMD_Naphthalene_ContamScalar 0.95
+PWN_Naphthalene_ContamScalar 0.95
+BD_Naphthalene_ContamScalar 0.95
+BC_Naphthalene_ContamScalar 0.95
+MA_Naphthalene_ContamScalar 0.95
+SG_Naphthalene_ContamScalar 0.95
+ZG_Naphthalene_ContamScalar 0.95
+PL_Naphthalene_ContamScalar 0.95
+PS_Naphthalene_ContamScalar 0.95
+ZL_Naphthalene_ContamScalar 0.95
+ZM_Naphthalene_ContamScalar 0.95
+ZS_Naphthalene_ContamScalar 0.95
+PB_Naphthalene_ContamScalar 0.95
+BB_Naphthalene_ContamScalar 0.95
+BO_Naphthalene_ContamScalar 0.95
+
+## contaminant interaction
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+Naphthalene_contam_interaction 0
+0.0 
