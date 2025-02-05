@@ -5,7 +5,7 @@
 #  		  for Hobart class
 #############################################
 # Run parameters
-verbose       5		# Detailed logged output
+verbose       1		# Detailed logged output
 
 trackAtomicRatio 0
 
@@ -44,9 +44,9 @@ debug         17       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=de
 
 title      Chesapeake Atlantis Model - 1st Run - no fishing - no ROMS
 dt         	12 hour     # 12 hour time step
-tstop      	36500     day      # Stop time after the given period  70yr:25550  50yr: 18250  35yr: 12775   30yr:10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  100: 36500  101yr-- 37000 
+tstop      	1100     day      # Stop time after the given period  70yr:25550  50yr: 18250  35yr: 12775   30yr:10960   25 yr: 9125   20yr: 7300  15 yr: 5500  10yr:3700  5yr:  1850  3yr: 1100  100: 36500  101yr-- 37000 
 toutstart  	0 day       # Output start time
-toutinc    	365 day     # Write output with this periodicity
+toutinc    	30 day     # Write output with this periodicity
 toutfinc   	365 day     # Write fisheries output with this periodicity
 tburnday   0 day
 
