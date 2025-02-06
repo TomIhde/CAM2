@@ -743,3 +743,24 @@ use_pollutantfiles 0
 # Diatom_N_rewind 1
 # Diatom_N_wgt_coefft 1.0
 
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
+## ~      Adding contaminant tracers in the model       ~ ##
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
+
+use_force_tracers 1
+use_weighted_assim 0
+
+# The number of tracers to search for in the files and the names of those tracers.
+nforceTracers 1
+tracerNames 1
+PFOS
+
+# Now the actual files. Can have more than one tracer in a file
+PFOS_nFiles 1
+PFOS_File0.name pfos_water_concentrations.nc
+PFOS_rewind 0
+PFOS_File0.use_resets 0
+PFOS_ResetTol 0.1
+
+# Light and noise pollutants
+use_pollutantfiles 0
