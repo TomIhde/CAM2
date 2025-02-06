@@ -253,3 +253,16 @@ K_num_basket 1 # Relevant to Australia model. Maxiumum number of species in bask
 # Dumps total biomass (across every MIGID entry) from migration array into biomindx.txt. Previously while migrators were outside the model, their biomass was not reported inn the NetCDF output file
 flag_mig_in_bioindx 0
 
+## Contaminant flags
+track_contaminants  1   # Whether tracking contaminants or not
+flag_contam_sanity_check 0   # flag to turn on checking of contaminant fluxes
+
+# Contaminant information (only used when track_contaminants set to 1)
+num_contaminants  1
+
+contaminant_names 1
+PFOS
+
+contaminant_units 1
+mgPFOS/m^3
+
