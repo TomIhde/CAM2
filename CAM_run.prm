@@ -35,7 +35,7 @@ which_check   80       # ID number of group to track (if don't want to track any
 habitat_check 0
 move_check    67       # ID number of group where tracking movements  (if don't want to track anything set it to 67, for other groups see list below)
 fishmove      1        # Set to 0 to turn vertebrate movement off for debugging purposes
-debug         17       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=debug histfishing,
+debug         0       # 0=debuging off, 1=debug fishing, 2=debug discards, 3=debug histfishing,
 # 4=debug assessments, 5=debug mpas, 6=debug effort, 7=debug econ effort, 8=debug econ, 9= debug quota, 
 # 10= aging, 11=debug recruitment, 12= debug_spawning, 13=debug migration, 14=debug movement, 
 # 15=debug stocks, 16=debug biomass calcs, 17=debug feeding, 18=debug everything, 
