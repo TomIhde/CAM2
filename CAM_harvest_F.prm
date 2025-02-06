@@ -15821,3 +15821,15 @@ DC_mFC_endage 33
 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10
 
 ###########################################################################################################End of additions from Emily
+
+## Contaminant-related harvest closures, works with MPAs, only used if flag_contam_fisheries_mgmt=1 
+flag_contam_fisheries_mgmt      0       # Kind of closures due to contaminants - 0 = none, 1 = set day, 2 = based on concentration in functional groups
+contam_fishery_closure_day      0        # Day of the run the closure will begin 5840
+contam_fishery_closure_period   0       # Length of the closure in days
+contam_fishery_closure_option           # For concentration-based closures use this flag to say whether only immediate box is closed (0) or adjacent boxes are are also closed
+
+ContamClosed    98                     # Number of boxes in model, with 1 for boxes that are closed and 0 if they remain open
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+# When using the concentration based closures then the threshold level for each contaminant is required
+## ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
+PFOS_fishery_thresh_level 1000000.0
